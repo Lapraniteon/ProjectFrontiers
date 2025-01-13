@@ -33,9 +33,12 @@ public class CameraController : MonoBehaviour
             if (yPositionNormalized >= movementAreaMargin && yPositionNormalized <= 1f - movementAreaMargin)
                 return;
 
-        float xMagnitude = xPositionNormalized / 2f + 1f;
-        float yMagnitude = yPositionNormalized / 2f + 1f;
+        float xMagnitude = xPositionNormalized * 2f - 1f;
+        float yMagnitude = yPositionNormalized * 2f - 1f;
+        
+        transform.Rotate(0f, xMagnitude * cameraMoveSpeed, 0f, Space.World);
+        transform.Rotate(-yMagnitude * cameraMoveSpeed, 0f, 0f, Space.Self);
 
-        Debug.Log(xPositionNormalized + ", " + yPositionNormalized);
+        // Debug.Log(xPositionNormalized + ", " + yPositionNormalized);
     }
 }
