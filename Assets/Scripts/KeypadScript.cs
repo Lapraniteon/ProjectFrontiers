@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class KeypadScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Tooltip("Displayes the code the player has typed")]
+    public TMP_Text displayedCode;
+    [Tooltip("Number on the keypad")]
+    public char c;
+
+    public void addDigit()
     {
-        
+        if (displayedCode.text.Length < 8)
+            displayedCode.text += c;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Restart()
     {
-        
+        displayedCode.text = "";
     }
 }
