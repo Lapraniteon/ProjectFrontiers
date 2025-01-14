@@ -11,6 +11,8 @@ public class CameraController : MonoBehaviour
     [Space] 
     [Tooltip("The area around the screen in which the mouse can be to move around, in a fraction from 0 - 1")]
     public float movementAreaMargin;
+    [Tooltip("The range in degrees in which the camera can move on the x rotation axis.")]
+    public float xRotationRange;
     
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,18 @@ public class CameraController : MonoBehaviour
         
         transform.Rotate(0f, xMagnitude * cameraMoveSpeed, 0f, Space.World);
         transform.Rotate(-yMagnitude * cameraMoveSpeed, 0f, 0f, Space.Self);
+
+        float clampedX = transform.localEulerAngles.x;
+        if (clampedX > 180f)
+            clampedX -= 360f;
+        
+        clampedX = Mathf.Clamp(clampedX, -xRotationRange / 2f, xRotationRange / 2f);
+        
+        transform.localRotation = Quaternion.Euler(
+            clampedX, 
+            transform.localEulerAngles.y, 
+            transform.localEulerAngles.z
+            );
 
         // Debug.Log(xPositionNormalized + ", " + yPositionNormalized);
     }
