@@ -10,7 +10,7 @@ public class KeypadScript : MonoBehaviour
     [Tooltip("Number on the keypad")]
     public char c;
 
-    public void addDigit()
+    public void AddDigit()
     {
         if (displayedCode.text.Length < 8)
             displayedCode.text += c;
