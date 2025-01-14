@@ -10,13 +10,13 @@ public class KeypadScript : MonoBehaviour
     [Tooltip("Number on the keypad")]
     public char c;
 
-    public void AddDigit()
+    public void AddDigit()   // adds a digit to the end of the displayed code
     {
         if (displayedCode.text.Length < 8)
             displayedCode.text += c;
     }
 
-    public void Restart()
+    public void Restart()    // empties out the displayed code
     {
         displayedCode.text = "";
     }
