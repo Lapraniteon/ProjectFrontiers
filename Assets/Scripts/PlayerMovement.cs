@@ -18,13 +18,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit hit;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, movementTargetLayerMask, QueryTriggerInteraction.Collide))
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, movementTargetLayerMask, QueryTriggerInteraction.Collide))
             {
-                Debug.Log("hit!");
+                Transform targetTransform = hit.transform.Find("MovementTargetData").transform;
+                if (targetTransform != null)
+                {
+                    transform.position = targetTransform.position;
+                    transform.localEulerAngles = targetTransform.localEulerAngles;
+                }
             }
-            else
-                Debug.Log("no hit");
         }
     }
 }
