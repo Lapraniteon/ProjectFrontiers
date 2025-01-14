@@ -12,10 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [Space] [Tooltip("The time it takes to move to a new location.")]
     public float movementInterpolationTime;
 
-    [Space] [Tooltip("The methods to run when movement is finished")]
-    public UnityEvent m_onMovementFinished;
-
     private LayerMask movementTargetLayerMask;
+    private MovementTarget currentFocusedTarget;
 
     private void Start()
     {
@@ -28,24 +26,27 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, movementTargetLayerMask, QueryTriggerInteraction.Collide))
             {
-                Transform targetTransform = hit.transform.Find("MovementTargetData").transform;
-                if (targetTransform != null)
+                if (currentFocusedTarget != null)
+                    currentFocusedTarget.m_OnUnfocus.Invoke();
+                
+                currentFocusedTarget = hit.transform.GetComponent<MovementTarget>();
+                if (currentFocusedTarget != null)
                 {
-                    Move(targetTransform);
+                    Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
                 }
             }
         }
     }
 
-    private void Move(Transform targetTransform) => StartCoroutine(MoveCoroutine(targetTransform));
+    private void Move(Transform targetTransform, UnityEvent onFocusEvent) => StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent));
 
-    private IEnumerator MoveCoroutine(Transform targetTransform)
+    private IEnumerator MoveCoroutine(Transform targetTransform, UnityEvent onFocusEvent)
     {
         transform.DOMove(targetTransform.position, movementInterpolationTime);
         Tween rotationTween = transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
         
         yield return rotationTween.WaitForCompletion();
         
-        m_onMovementFinished.Invoke();
+        onFocusEvent.Invoke();
     }
 }
