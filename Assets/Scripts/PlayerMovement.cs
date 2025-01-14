@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     [Tooltip("The layer to target in the raycast.")]
     public string movementTargetLayer;
+
+    [Space] [Tooltip("The time it takes to move to a new location.")]
+    public float movementInterpolationTime;
 
     private LayerMask movementTargetLayerMask;
 
@@ -18,13 +22,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit hit;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, movementTargetLayerMask))
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, movementTargetLayerMask, QueryTriggerInteraction.Collide))
             {
-                Debug.Log("hit!");
+                Transform targetTransform = hit.transform.Find("MovementTargetData").transform;
+                if (targetTransform != null)
+                {
+                    transform.DOMove(targetTransform.position, movementInterpolationTime);
+                    transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
+                }
             }
-            else
-                Debug.Log("no hit");
         }
     }
 }
