@@ -16,15 +16,25 @@ public class CheckSolution : MonoBehaviour
 
     public void Submit()
     {
+        StartCoroutine(SubmitCoroutine());
+    }
+
+
+    public IEnumerator SubmitCoroutine()
+    {
         if (displayedCode.text == solution)
         {
             notSolved.SetActive(false);
             GameManager.keypadPuzzelSolved = false;
+            yield return null;
         }
         else
         {
             notSolved.SetActive(true);
+            displayedCode.text = "ERROR";
+            yield return new WaitForSeconds(1);
             displayedCode.text = "";
+            yield return null;
         }
     }
 }
