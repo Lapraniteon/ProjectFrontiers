@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
 
     [Space] [Tooltip("The time it takes to move to a new location.")]
     public float movementInterpolationTime;
+
+    [Space] [Tooltip("The methods to run when movement is finished")]
+    public UnityEvent m_onMovementFinished;
 
     private LayerMask movementTargetLayerMask;
 
@@ -27,10 +31,21 @@ public class PlayerMovement : MonoBehaviour
                 Transform targetTransform = hit.transform.Find("MovementTargetData").transform;
                 if (targetTransform != null)
                 {
-                    transform.DOMove(targetTransform.position, movementInterpolationTime);
-                    transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
+                    Move(targetTransform);
                 }
             }
         }
+    }
+
+    private void Move(Transform targetTransform) => StartCoroutine(MoveCoroutine(targetTransform));
+
+    private IEnumerator MoveCoroutine(Transform targetTransform)
+    {
+        transform.DOMove(targetTransform.position, movementInterpolationTime);
+        Tween rotationTween = transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
+        
+        yield return rotationTween.WaitForCompletion();
+        
+        m_onMovementFinished.Invoke();
     }
 }
