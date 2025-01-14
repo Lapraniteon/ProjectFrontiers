@@ -7,11 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    // boolean that symbolizes if the keypadpuzzel has been solved
-    public static bool keypadPuzzelSolved;
-
-    // number of wires connected correctly
-    public static int numberOfWiresConnected;
 
     private static GameManager _instance; // Game Manager singleton pattern
     [HideInInspector] public static GameManager Instance
@@ -30,16 +25,10 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         _instance = this;
-
-        keypadPuzzelSolved = false;
-        numberOfWiresConnected = 0;
     }
     
     void Update()
     {
-        if (numberOfWiresConnected == 4)
-        {
-            Debug.Log("Wire Puzzel Solved");
-        }
+
     }
 }

@@ -10,6 +10,12 @@ public class GrabAndDrag : MonoBehaviour
     [Tooltip("The position in which this game object needs to be at")]
     public Transform port;
 
+    public static int numberOfWiresConnected;
+
+    void Start()
+    {
+        numberOfWiresConnected = 0;
+    }
 
     private Vector3 GetMousePos()    // returns the mouse position
     {
@@ -32,7 +38,11 @@ public class GrabAndDrag : MonoBehaviour
         if (Vector3.Distance(transform.position, port.position) <= tolerance)
         {
             transform.position = port.position;
-            GameManager.numberOfWiresConnected++;
+            numberOfWiresConnected++;
+            if (numberOfWiresConnected == 4)
+            {
+                Debug.Log("wire puzzel solved");
+            }
         }
     }
 }
