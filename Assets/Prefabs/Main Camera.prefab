@@ -166,3 +166,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52bed9426fb4134ab9a6d9dae377eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementTargetLayer: MovementTarget
