@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     [Tooltip("The layer to target in the raycast.")]
     public string movementTargetLayer;
+
+    [Space] [Tooltip("The time it takes to move to a new location.")]
+    public float movementInterpolationTime;
 
     private LayerMask movementTargetLayerMask;
 
@@ -23,8 +27,8 @@ public class PlayerMovement : MonoBehaviour
                 Transform targetTransform = hit.transform.Find("MovementTargetData").transform;
                 if (targetTransform != null)
                 {
-                    transform.position = targetTransform.position;
-                    transform.localEulerAngles = targetTransform.localEulerAngles;
+                    transform.DOMove(targetTransform.position, movementInterpolationTime);
+                    transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
                 }
             }
         }
