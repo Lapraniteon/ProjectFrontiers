@@ -69,8 +69,6 @@ public class PipePuzzle : MonoBehaviour
     {
         if (!CheckSolution())
             return;
-        
-        Debug.Log("Solved!");
     }
 
     public bool CheckSolution()
@@ -79,10 +77,12 @@ public class PipePuzzle : MonoBehaviour
         {
             if (sol.segment.orientation == sol.orientation)
                 continue;
-
+            
+            Debug.Log("Pipe Puzzle Incorrect \nHalted on check of " + sol.segment.transform.name);
             return false;
         }
-
+        
+        Debug.Log("Pipe Puzzle Solved!");
         return true;
     }
 }
