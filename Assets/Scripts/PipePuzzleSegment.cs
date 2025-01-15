@@ -13,7 +13,7 @@ public class PipePuzzleSegment : MonoBehaviour
         Straight,
         Curve,
         Cross,
-        Threeway,
+        ThreeWay,
         End
     };
 
