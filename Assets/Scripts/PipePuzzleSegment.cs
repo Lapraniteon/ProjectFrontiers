@@ -32,13 +32,16 @@ public class PipePuzzleSegment : MonoBehaviour
     public void RandomizeRotation()
     {
         orientation = Random.Range(0, 4);
+        if (segmentType == PipePuzzle.SegmentTypes.Straight && orientation > 1) // Straight pieces have only 0 or 1 orientation
+            orientation -= 2;
+        
         transform.localRotation = Quaternion.Euler(0, 0, -90 * orientation);
     }
 
     public void Rotate()
     {
         orientation++;
-        if (orientation == 4)
+        if (orientation == 4 || (orientation == 2 && segmentType == PipePuzzle.SegmentTypes.Straight))
             orientation = 0;
 
         StartCoroutine(RotateCoroutine());

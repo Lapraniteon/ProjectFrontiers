@@ -12,7 +12,7 @@ public class PipePuzzle : MonoBehaviour
     public class SegmentSolution
     {
         public PipePuzzleSegment segment;
-        public int orientation;
+        public int correctOrientation;
     }
     
     [Space]
@@ -75,7 +75,7 @@ public class PipePuzzle : MonoBehaviour
     {
         foreach (SegmentSolution sol in solution)
         {
-            if (sol.segment.orientation == sol.orientation)
+            if (sol.segment.orientation == sol.correctOrientation)
                 continue;
             
             Debug.Log("Pipe Puzzle Incorrect \nHalted on check of " + sol.segment.transform.name);
