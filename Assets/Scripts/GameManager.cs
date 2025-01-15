@@ -21,8 +21,9 @@ public class GameManager : MonoBehaviour
             return _instance;
         }
     } // Game Manager instance property
-    
-    
+
+    [Tooltip("Whether the camera is currently being prevented from moving by a target.")]
+    public bool cameraIsLocked;
 
     void Awake()
     {

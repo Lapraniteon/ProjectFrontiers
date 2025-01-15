@@ -7,6 +7,10 @@ public class MovementTarget : MonoBehaviour
 {
     [Tooltip("The target position and rotation of the camera when focusing on this object.")]
     public Transform movementTargetData;
+
+    [Space] 
+    [Tooltip("Prevent the camera from being rotated while this target is focused.")]
+    public bool lockCameraWhileFocused;
     
     [Space]
     [Tooltip("Methods to run when this object becomes focused.")]

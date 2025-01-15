@@ -23,7 +23,8 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CameraMovement();
+        if (!GameManager.Instance.cameraIsLocked)
+            CameraMovement();
     }
 
     private void CameraMovement()

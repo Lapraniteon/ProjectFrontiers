@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private LayerMask movementTargetLayerMask;
     private MovementTarget currentFocusedTarget;
+    private MovementTarget previousFocusedTarget;
 
     private void Start()
     {
@@ -29,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
                 if (currentFocusedTarget != null)
                     currentFocusedTarget.m_OnUnfocus.Invoke();
                 
+                previousFocusedTarget = currentFocusedTarget;
                 currentFocusedTarget = hit.transform.GetComponent<MovementTarget>();
                 if (currentFocusedTarget != null)
                 {
@@ -36,9 +38,22 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            if (previousFocusedTarget == null)
+                return;
+
+            currentFocusedTarget = previousFocusedTarget;
+            Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
+        }
     }
 
-    private void Move(Transform targetTransform, UnityEvent onFocusEvent) => StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent));
+    private void Move(Transform targetTransform, UnityEvent onFocusEvent)
+    {
+        GameManager.Instance.cameraIsLocked = currentFocusedTarget.lockCameraWhileFocused;
+        
+        StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent));
+    }
 
     private IEnumerator MoveCoroutine(Transform targetTransform, UnityEvent onFocusEvent)
     {
