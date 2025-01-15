@@ -10,10 +10,24 @@ public class PipePuzzleSegment : MonoBehaviour
     
     [Tooltip("The orientation of this pipe segment.\n0 = North\n1 = East\n2 = South\n3 = West")]
     public int orientation;
+    
+    [Tooltip("The type of this segment.")]
+    public PipePuzzle.SegmentTypes segmentType;
 
-    private void Start()
+    public void SpawnPiece(PipePuzzle.SegmentType[] segmentTypeObjects)
     {
-        // Randomize rotation
+        foreach (PipePuzzle.SegmentType definition in segmentTypeObjects) // Find the segment type that matches the specified type on the pipe segment.
+        {
+            if (segmentType == definition.type)
+            {
+                Instantiate(definition.prefab, transform); // Spawn the segment type and parent it to the pipe segment.
+                break;
+            }
+        }
+    }
+    
+    public void RandomizeRotation()
+    {
         orientation = Random.Range(0, 4);
         transform.localRotation = Quaternion.Euler(0, 0, -90 * orientation);
     }

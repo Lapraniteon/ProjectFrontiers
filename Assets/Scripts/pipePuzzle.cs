@@ -19,6 +19,7 @@ public class PipePuzzle : MonoBehaviour
     [Tooltip("The segments that are part of the solution and their rotations.")]
     public SegmentSolution[] solution;
     
+    [System.Serializable]
     public enum SegmentTypes
     {
         Straight,
@@ -40,6 +41,11 @@ public class PipePuzzle : MonoBehaviour
     void Start()
     {
         _pipeSegmentLayerMask = LayerMask.GetMask(pipeSegmentLayer);
+        
+        // Determine what pipe piece prefab to spawn based on the defined type.
+        PipePuzzleSegment[] children = GetComponentsInChildren<PipePuzzleSegment>();
+        foreach (PipePuzzleSegment segment in children) // Go through each pipe segment.
+            segment.SpawnPiece(segmentTypeObjects);
     }
     
     // Update is called once per frame
