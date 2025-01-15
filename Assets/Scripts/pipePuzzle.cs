@@ -75,7 +75,7 @@ public class PipePuzzle : MonoBehaviour
     {
         foreach (SegmentSolution sol in solution)
         {
-            if (sol.segment.orientation == sol.correctOrientation)
+            if (sol.segment.orientation == sol.correctOrientation || sol.segment.segmentType == SegmentTypes.Cross)
                 continue;
             
             Debug.Log("Pipe Puzzle Incorrect \nHalted on check of " + sol.segment.transform.name);
