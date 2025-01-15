@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pipePuzzle : MonoBehaviour
+public class PipePuzzle : MonoBehaviour
 {
     public string pipeSegmentLayer;
     private LayerMask _pipeSegmentLayerMask;
