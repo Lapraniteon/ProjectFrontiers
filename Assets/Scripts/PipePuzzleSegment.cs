@@ -50,7 +50,7 @@ public class PipePuzzleSegment : MonoBehaviour
     private IEnumerator RotateCoroutine()
     {
         IsRotating = true;
-        Tween rotation = transform.DOLocalRotate(transform.localEulerAngles + new Vector3(0f, 0f, -90f), 0.5f).SetEase(Ease.OutBounce);
+        Tween rotation = transform.DOLocalRotate(transform.localEulerAngles + new Vector3(0f, 0f, -90f), 0.25f).SetEase(Ease.OutQuad);
         yield return rotation.WaitForCompletion();
         IsRotating = false;
         yield return null;
