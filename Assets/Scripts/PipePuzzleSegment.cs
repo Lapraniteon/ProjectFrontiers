@@ -1,7 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PipePuzzleSegment : MonoBehaviour
 {
@@ -48,5 +51,11 @@ public class PipePuzzleSegment : MonoBehaviour
         yield return rotation.WaitForCompletion();
         IsRotating = false;
         yield return null;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawCube(transform.position, new Vector3(0.1f, 0.1f, 0.1f));
     }
 }

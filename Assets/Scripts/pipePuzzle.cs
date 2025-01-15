@@ -64,4 +64,25 @@ public class PipePuzzle : MonoBehaviour
             }
         }
     }
+
+    public void Solve()
+    {
+        if (!CheckSolution())
+            return;
+        
+        Debug.Log("Solved!");
+    }
+
+    public bool CheckSolution()
+    {
+        foreach (SegmentSolution sol in solution)
+        {
+            if (sol.segment.orientation == sol.orientation)
+                continue;
+
+            return false;
+        }
+
+        return true;
+    }
 }
