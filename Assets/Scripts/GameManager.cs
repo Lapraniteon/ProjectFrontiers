@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    // boolean that symbolizes if the keypadpuzzel has been solved
+    public static bool keypadPuzzelSolved;
 
     private static GameManager _instance; // Game Manager singleton pattern
     [HideInInspector] public static GameManager Instance
@@ -25,10 +27,12 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         _instance = this;
+
+        keypadPuzzelSolved = false;
     }
     
     void Update()
     {
-
+        
     }
 }
