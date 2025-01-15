@@ -18,6 +18,24 @@ public class PipePuzzle : MonoBehaviour
     [Space]
     [Tooltip("The segments that are part of the solution and their rotations.")]
     public SegmentSolution[] solution;
+    
+    public enum SegmentTypes
+    {
+        Straight,
+        Curve,
+        Cross,
+        ThreeWay,
+        End
+    };
+
+    [System.Serializable]
+    public class SegmentType
+    {
+        public SegmentTypes type;
+        public GameObject prefab;
+    }
+    [Tooltip("The objects to spawn for each type of segment.")]
+    public SegmentType[] segmentTypeObjects;
 
     void Start()
     {
