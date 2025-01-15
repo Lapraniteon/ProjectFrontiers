@@ -48,7 +48,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void Move(Transform targetTransform, UnityEvent onFocusEvent) => StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent));
+    private void Move(Transform targetTransform, UnityEvent onFocusEvent)
+    {
+        GameManager.Instance.cameraIsLocked = currentFocusedTarget.lockCameraWhileFocused;
+        
+        StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent));
+    }
 
     private IEnumerator MoveCoroutine(Transform targetTransform, UnityEvent onFocusEvent)
     {
