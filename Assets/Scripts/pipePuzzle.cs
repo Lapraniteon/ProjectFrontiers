@@ -45,7 +45,10 @@ public class PipePuzzle : MonoBehaviour
         // Determine what pipe piece prefab to spawn based on the defined type.
         PipePuzzleSegment[] children = GetComponentsInChildren<PipePuzzleSegment>();
         foreach (PipePuzzleSegment segment in children) // Go through each pipe segment.
+        {
             segment.SpawnPiece(segmentTypeObjects);
+            segment.RandomizeRotation();
+        }
     }
     
     // Update is called once per frame
@@ -53,11 +56,10 @@ public class PipePuzzle : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, _pipeSegmentLayerMask, QueryTriggerInteraction.Collide))
             {
                 PipePuzzleSegment segment = hit.transform.GetComponent<PipePuzzleSegment>();
-                if (!segment.IsRotating)
+                if (!segment.IsRotating && segment.segmentType != SegmentTypes.Cross)
                     segment.Rotate();
             }
         }
