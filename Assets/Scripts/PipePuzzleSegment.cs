@@ -7,6 +7,24 @@ public class PipePuzzleSegment : MonoBehaviour
 {
     [Tooltip("Is this segment currently rotating?")]
     public bool IsRotating { get; private set; }
+
+    public enum SegmentTypes
+    {
+        Straight,
+        Curve,
+        Cross,
+        Threeway,
+        End
+    };
+
+    [System.Serializable]
+    public class SegmentType
+    {
+        public SegmentTypes type;
+        public GameObject prefab;
+    }
+    [Tooltip("The objects to spawn for each type of segment.")]
+    public SegmentType[] segmentTypeObjects;
     
     [Tooltip("The orientation of this pipe segment.\n0 = North\n1 = East\n2 = South\n3 = West")]
     public int orientation;

@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class PipePuzzle : MonoBehaviour
 {
+    [Tooltip("The name of the layer that the pipe segments are on.")]
     public string pipeSegmentLayer;
     private LayerMask _pipeSegmentLayerMask;
+
+    [System.Serializable]
+    public class SegmentSolution
+    {
+        public PipePuzzleSegment segment;
+        public int orientation;
+    }
+    
+    [Space]
+    [Tooltip("The segments that are part of the solution and their rotations.")]
+    public SegmentSolution[] solution;
 
     void Start()
     {
