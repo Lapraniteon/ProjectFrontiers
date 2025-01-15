@@ -205,7 +205,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2130553420}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PipePuzzle, Assembly-CSharp
         m_MethodName: Solve
         m_Mode: 1
@@ -431,6 +431,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caea053e621e2e2408c77ddaf8e2f04f, type: 3}
+--- !u!1001 &531720688
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2065578621809722305, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_Name
+      value: PipePuzzle Design01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772518129250149692, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f4063a1e676c2b418b54d0a9b6d5ab4, type: 3}
 --- !u!1 &603025685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,94 +1586,14 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caea053e621e2e2408c77ddaf8e2f04f, type: 3}
---- !u!114 &2130553420 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
-    type: 3}
-  m_PrefabInstance: {fileID: 4627311733543170743}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c30b6151abb9ab941a6bfe27408555aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &4627311733543170743
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2736790291357554843, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_Name
-      value: PipePuzzle
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 749defd58610eaf448165ddb1b3a37b4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 603025688}
   - {fileID: 1278844674}
-  - {fileID: 4627311733543170743}
   - {fileID: 1181444932}
+  - {fileID: 531720688}
   - {fileID: 1716535713}
   - {fileID: 448926294}
   - {fileID: 196582218}
