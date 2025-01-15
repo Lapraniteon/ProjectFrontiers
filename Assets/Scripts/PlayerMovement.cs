@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private LayerMask movementTargetLayerMask;
     private MovementTarget currentFocusedTarget;
+    private MovementTarget previousFocusedTarget;
 
     private void Start()
     {
@@ -29,12 +30,21 @@ public class PlayerMovement : MonoBehaviour
                 if (currentFocusedTarget != null)
                     currentFocusedTarget.m_OnUnfocus.Invoke();
                 
+                previousFocusedTarget = currentFocusedTarget;
                 currentFocusedTarget = hit.transform.GetComponent<MovementTarget>();
                 if (currentFocusedTarget != null)
                 {
                     Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
                 }
             }
+        }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            if (previousFocusedTarget == null)
+                return;
+
+            currentFocusedTarget = previousFocusedTarget;
+            Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
         }
     }
 
