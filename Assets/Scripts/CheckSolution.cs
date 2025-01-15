@@ -5,6 +5,9 @@ using TMPro;
 
 public class CheckSolution : MonoBehaviour
 {
+    // boolean that symbolizes if the keypadpuzzel has been solved
+    public static bool keypadPuzzelSolved;
+
     [Tooltip("Displayes the code the player has typed")]
     public TMP_Text displayedCode;
 
@@ -14,18 +17,18 @@ public class CheckSolution : MonoBehaviour
     // a button that symbolizes the puzzel is not complete
     public GameObject notSolved;
 
+    [Tooltip("the command when the subit button is pressed")]
     public void Submit()
     {
         StartCoroutine(SubmitCoroutine());
     }
 
-
-    public IEnumerator SubmitCoroutine()
+    private IEnumerator SubmitCoroutine()
     {
-        if (displayedCode.text == solution)
+        if (displayedCode.text == solution) // if the solution is correct the puzzel is solved otherwise it says error and resets the displayed code
         {
             notSolved.SetActive(false);
-            GameManager.keypadPuzzelSolved = false;
+            keypadPuzzelSolved = false;
             yield return null;
         }
         else
