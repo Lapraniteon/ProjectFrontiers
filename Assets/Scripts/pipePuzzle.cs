@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PipePuzzle : MonoBehaviour
 {
@@ -38,6 +39,8 @@ public class PipePuzzle : MonoBehaviour
     [Tooltip("The objects to spawn for each type of segment.")]
     public SegmentType[] segmentTypeObjects;
 
+    public UnityEvent m_OnSolved;
+
     void Start()
     {
         _pipeSegmentLayerMask = LayerMask.GetMask(pipeSegmentLayer);
@@ -71,6 +74,7 @@ public class PipePuzzle : MonoBehaviour
             return;
 
         GameManager.Instance.solved_pipePuzzle++;
+        m_OnSolved.Invoke();
     }
 
     public bool CheckSolution()

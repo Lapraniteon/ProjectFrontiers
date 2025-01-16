@@ -15,7 +15,7 @@ public class CheckSolution : MonoBehaviour
     // a button that symbolizes the puzzel is not complete
     public GameObject notSolved;
 
-    public UnityEvent onSolved;
+    public UnityEvent m_OnSolved;
 
     public void Submit()
     {
@@ -29,7 +29,7 @@ public class CheckSolution : MonoBehaviour
         {
             notSolved.SetActive(false);
             GameManager.Instance.solved_keypadPuzzle++;
-            onSolved.Invoke();
+            m_OnSolved.Invoke();
             yield return null;
         }
         else
