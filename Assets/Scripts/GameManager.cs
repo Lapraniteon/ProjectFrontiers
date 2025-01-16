@@ -7,9 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    // boolean that symbolizes if the keypadpuzzel has been solved
-    public static bool keypadPuzzelSolved;
-
     private static GameManager _instance; // Game Manager singleton pattern
     [HideInInspector] public static GameManager Instance
     {
@@ -25,15 +22,13 @@ public class GameManager : MonoBehaviour
     [Tooltip("Whether the camera is currently being prevented from moving by a target.")]
     public bool cameraIsLocked;
 
+    public bool solved_firstSwitch;
+    public bool solved_keypadPuzzle;
+    public bool solved_wirePuzzle;
+    public bool solved_pipePuzzle;
+
     void Awake()
     {
         _instance = this;
-
-        keypadPuzzelSolved = false;
-    }
-    
-    void Update()
-    {
-        
     }
 }
