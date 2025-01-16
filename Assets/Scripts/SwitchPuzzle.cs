@@ -24,6 +24,7 @@ public class SwitchPuzzle : MonoBehaviour
                 if (!isSolved)
                     isSolved = true;
 
+                Debug.Log("Switch solved!");
                 GameManager.Instance.solved_firstSwitch++;
                 m_OnSolved.Invoke();
             }
