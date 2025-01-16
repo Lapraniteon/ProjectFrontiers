@@ -22,10 +22,10 @@ public class GameManager : MonoBehaviour
     [Tooltip("Whether the camera is currently being prevented from moving by a target.")]
     public bool cameraIsLocked;
 
-    public bool solved_firstSwitch;
-    public bool solved_keypadPuzzle;
-    public bool solved_wirePuzzle;
-    public bool solved_pipePuzzle;
+    public int solved_firstSwitch;
+    public int solved_keypadPuzzle;
+    public int solved_wirePuzzle;
+    public int solved_pipePuzzle;
 
     void Awake()
     {

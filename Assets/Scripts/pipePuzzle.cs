@@ -69,6 +69,8 @@ public class PipePuzzle : MonoBehaviour
     {
         if (!CheckSolution())
             return;
+
+        GameManager.Instance.solved_pipePuzzle++;
     }
 
     public bool CheckSolution()
