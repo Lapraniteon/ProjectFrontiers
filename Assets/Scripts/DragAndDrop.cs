@@ -25,6 +25,10 @@ public class DragAndDrop : MonoBehaviour
     private void OnMouseDown()    // gets the mouse position when left click is down
     {
         _mousePosition = Input.mousePosition - GetMousePos();
+        if (Vector3.Distance(transform.position, port.position) <= tolerance)
+        {
+            numberOfWiresConnected--;
+        }
     }
 
 
