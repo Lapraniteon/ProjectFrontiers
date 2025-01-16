@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class CheckSolution : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class CheckSolution : MonoBehaviour
     // a button that symbolizes the puzzel is not complete
     public GameObject notSolved;
 
+    public UnityEvent m_OnSolved;
+
     public void Submit()
     {
         StartCoroutine(SubmitCoroutine());
@@ -25,7 +28,8 @@ public class CheckSolution : MonoBehaviour
         if (displayedCode.text == solution)
         {
             notSolved.SetActive(false);
-            GameManager.keypadPuzzelSolved = false;
+            GameManager.Instance.solved_keypadPuzzle++;
+            m_OnSolved.Invoke();
             yield return null;
         }
         else
