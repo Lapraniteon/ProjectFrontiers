@@ -345,16 +345,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwitchPuzzle
       objectReference: {fileID: 0}
-    - target: {fileID: 1752136430963884592, guid: 6d88d7055194c0042826b62c90903f65,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2001305907770970487, guid: 6d88d7055194c0042826b62c90903f65,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 2296615716139047131, guid: 6d88d7055194c0042826b62c90903f65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -403,11 +393,6 @@ PrefabInstance:
     - target: {fileID: 2296615716139047131, guid: 6d88d7055194c0042826b62c90903f65,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7412186346164367301, guid: 6d88d7055194c0042826b62c90903f65,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

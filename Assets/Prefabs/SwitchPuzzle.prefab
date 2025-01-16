@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 9145820152398692858}
   - component: {fileID: 5597143014966468205}
   - component: {fileID: 5873827146189228016}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 8594305970830570440}
   - component: {fileID: 9155529414846001117}
   - component: {fileID: 8777032272827266331}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
