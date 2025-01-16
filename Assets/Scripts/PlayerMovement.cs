@@ -40,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(1))
         {
+            currentFocusedTarget.m_OnUnfocus.Invoke();
+            
             if (previousFocusedTarget == null)
                 return;
 

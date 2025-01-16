@@ -2934,6 +2934,18 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &436633528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6850500953895432011, guid: 99f6923e1ced3458eb9ddae0e33590fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1427243200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &436633529 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1552232512091638694, guid: 99f6923e1ced3458eb9ddae0e33590fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1427243200}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &549236847
 Mesh:
   m_ObjectHideFlags: 0
@@ -3938,6 +3950,76 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2047307385}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2047307385}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateKeyPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DeactivateKeyPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeyPadActivation, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeyPadActivation, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573571703553829464, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4715317349816524833, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_Name
@@ -7973,7 +8055,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2047307386}
     m_Modifications:
     - target: {fileID: 1552232512091638694, guid: 99f6923e1ced3458eb9ddae0e33590fd,
         type: 3}
@@ -8078,7 +8160,7 @@ PrefabInstance:
     - target: {fileID: 6850500953895432011, guid: 99f6923e1ced3458eb9ddae0e33590fd,
         type: 3}
       propertyPath: m_Name
-      value: Keypad
+      value: KeypadCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 6850500953895432011, guid: 99f6923e1ced3458eb9ddae0e33590fd,
         type: 3}
@@ -9905,6 +9987,52 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &2047307384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047307386}
+  - component: {fileID: 2047307385}
+  m_Layer: 0
+  m_Name: Keypad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2047307385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047307384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750bd4dc2c3dcc043abfa73c55d1138d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyPadCanvas: {fileID: 436633528}
+--- !u!4 &2047307386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047307384}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 484.5, y: 272.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 436633529}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2059979303
 Mesh:
   m_ObjectHideFlags: 0
@@ -12034,7 +12162,7 @@ SceneRoots:
   - {fileID: 703749523}
   - {fileID: 8661699828729140860}
   - {fileID: 772733561800437084}
-  - {fileID: 1427243200}
+  - {fileID: 2047307386}
   - {fileID: 685694740}
   - {fileID: 2122259501}
   - {fileID: 707736289}
