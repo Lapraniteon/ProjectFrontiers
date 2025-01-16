@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 5877434606440855346}
+  wiresConnected: 0
 --- !u!1 &235591956664346819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4968688792117371143}
+  - component: {fileID: 5098798619643637459}
   m_Layer: 0
   m_Name: WirePuzzel
   m_TagString: Untagged
@@ -1042,6 +1044,23 @@ Transform:
   - {fileID: 2151019860748086825}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5098798619643637459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871694954253319679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7beb71bad3f44f0995821fe354ea80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wireConnected:
+  - {fileID: 7957072316215786025}
+  - {fileID: 8184457957902113327}
+  - {fileID: 15709366229042240}
+  - {fileID: 8660745460091503244}
 --- !u!1 &6675342692111766537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,6 +1653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 5099691825351265124}
+  wiresConnected: 0
 --- !u!1 &8184457957902113327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,6 +1774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 6478343065128583690}
+  wiresConnected: 0
 --- !u!1 &8660745460091503244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,6 +1895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 2151019860748086825}
+  wiresConnected: 0
 --- !u!1 &9032249893095522531
 GameObject:
   m_ObjectHideFlags: 0
