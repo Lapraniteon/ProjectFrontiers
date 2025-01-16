@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: a2895ba44fadc61428b39ad3343cf438
+=======
+guid: d36965ceaef36e64a97f57a8cc389b0d
+>>>>>>> Grey-box
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
