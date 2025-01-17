@@ -7,6 +7,8 @@ public class MovementTarget : MonoBehaviour
 {
     [Tooltip("The target position and rotation of the camera when focusing on this object.")]
     public Transform movementTargetData;
+    [Tooltip("The area in which can be clicked to focus on this target.")]
+    public SphereCollider movementTargetCollider;
 
     [Space] 
     [Tooltip("Prevent the camera from being rotated while this target is focused.")]

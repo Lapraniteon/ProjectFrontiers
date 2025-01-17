@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
                 currentFocusedTarget = thisHit;
                 if (currentFocusedTarget != null)
                 {
+                    currentFocusedTarget.movementTargetCollider.enabled = false;
                     Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
                 }
             }
@@ -50,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
                 return;
 
             currentFocusedTarget = previousFocusedTarget;
+            currentFocusedTarget.movementTargetCollider.enabled = true;
             Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
         }
     }
