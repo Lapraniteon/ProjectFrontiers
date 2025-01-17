@@ -23,8 +23,6 @@ public class GameManager : MonoBehaviour
     [Tooltip("Whether the camera is currently being prevented from moving by a target.")]
     public bool cameraIsLocked;
 
-    public bool keypadUnlocked;
-
     public bool lightsTurnedOn;
 
     public int solved_firstSwitch;
@@ -39,6 +37,12 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         _instance = this;
+    }
+
+    public void PuzzleCompleted()
+    {
+        Debug.Log("Current amount of puzzles solved: " + (solved_firstSwitch + solved_keypadPuzzle + solved_wirePuzzle + solved_pipePuzzle));
+        m_OnPuzzleCompletion.Invoke();
     }
 
     public void TurnOnLights()
