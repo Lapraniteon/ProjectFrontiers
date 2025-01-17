@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa023bb79acc84029b25c94925dbcb28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFocused: 0
   withPower: {fileID: 8970822337915139492}
   noPower: {fileID: 9076065913992664549}
 --- !u!1 &1511565749554906023
@@ -552,6 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &2247589367027941235
 GameObject:
@@ -671,6 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05d32b19be4f549ee9869d37322ac82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
   solution: 3596
   notSolved: {fileID: 2888108401460817772}
@@ -1034,6 +1037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &3493913610178976739
 GameObject:
@@ -1258,6 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &3725711711202795331
 GameObject:
@@ -1491,6 +1496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &4394365545215152714
 GameObject:
@@ -1610,6 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &4694700123861329168
 GameObject:
@@ -1729,6 +1736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &4875810802796708680
 GameObject:
@@ -1982,6 +1990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &5621109571682271443
 GameObject:
@@ -2771,6 +2780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &7416785259229810279
 GameObject:
@@ -3024,6 +3034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &7809004680065385410
 GameObject:
@@ -3277,6 +3288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &8035944645878241769
 GameObject:
@@ -3664,6 +3676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496eeddd7374b388736befc5c75414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 5754281542842583862}
   displayedCode: {fileID: 7587969162029706504}
 --- !u!1 &8537537212594462859
 GameObject:

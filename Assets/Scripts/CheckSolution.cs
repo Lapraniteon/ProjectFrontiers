@@ -8,6 +8,8 @@ public class CheckSolution : MonoBehaviour
 {
     private Vector3 _mousePosition;
 
+    public NewKeypadPuzzle puzzle;
+
     [Tooltip("Displayes the code the player has typed")]
     public TMP_Text displayedCode;
 
@@ -26,6 +28,9 @@ public class CheckSolution : MonoBehaviour
 
     private void OnMouseDown()    // gets the mouse position when left click is down
     {
+        if (!puzzle.isFocused || !puzzle.hasPower)
+            return;
+
         _mousePosition = Input.mousePosition - GetMousePos();
         Submit();
     }
@@ -41,8 +46,8 @@ public class CheckSolution : MonoBehaviour
         if (displayedCode.text == solution)
         {
             notSolved.SetActive(false);
+            puzzle.isFocused = false;
             GameManager.Instance.solved_keypadPuzzle++;
-            Debug.Log("solved");
             m_OnSolved.Invoke();
             yield return null;
         }

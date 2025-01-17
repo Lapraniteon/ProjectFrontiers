@@ -7,6 +7,8 @@ public class NewKeypadButton : MonoBehaviour
 {
     private Vector3 _mousePosition;
 
+    public NewKeypadPuzzle puzzle;
+
     [Tooltip("Displayes the code the player has typed")]
     public TMP_Text displayedCode;
 
@@ -17,6 +19,9 @@ public class NewKeypadButton : MonoBehaviour
 
     private void OnMouseDown()    // gets the mouse position when left click is down
     {
+        if (!puzzle.isFocused || !puzzle.hasPower)
+            return;
+
         _mousePosition = Input.mousePosition - GetMousePos();
         if (gameObject.name == "Restart Button")
         {
