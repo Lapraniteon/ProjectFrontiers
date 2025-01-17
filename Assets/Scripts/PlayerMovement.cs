@@ -45,13 +45,13 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(1))
         {
+            currentFocusedTarget.movementTargetCollider.enabled = true;
             currentFocusedTarget.m_OnUnfocus.Invoke();
             
             if (previousFocusedTarget == null)
                 return;
 
             currentFocusedTarget = previousFocusedTarget;
-            currentFocusedTarget.movementTargetCollider.enabled = true;
             Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
         }
     }
