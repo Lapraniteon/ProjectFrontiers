@@ -10,6 +10,8 @@ public class DragAndDrop : MonoBehaviour
     [Tooltip("The position in which this game object needs to be at")]
     public Transform port;
 
+    public IsWirePuzzelSolved puzzel;
+
     public bool wiresConnected;
 
     void Start()
@@ -43,6 +45,7 @@ public class DragAndDrop : MonoBehaviour
         {
             transform.position = port.position;
             wiresConnected = true;
+            puzzel.CheckSolution();
         }
     }
 }
