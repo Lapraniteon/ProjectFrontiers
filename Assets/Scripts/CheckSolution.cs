@@ -6,6 +6,8 @@ using UnityEngine.Events;
 
 public class CheckSolution : MonoBehaviour
 {
+    private Vector3 _mousePosition;
+
     [Tooltip("Displayes the code the player has typed")]
     public TMP_Text displayedCode;
 
@@ -16,6 +18,17 @@ public class CheckSolution : MonoBehaviour
     public GameObject notSolved;
 
     public UnityEvent m_OnSolved;
+
+    private Vector3 GetMousePos()    // returns the mouse position
+    {
+        return Camera.main.WorldToScreenPoint(transform.position);
+    }
+
+    private void OnMouseDown()    // gets the mouse position when left click is down
+    {
+        _mousePosition = Input.mousePosition - GetMousePos();
+        Submit();
+    }
 
     public void Submit()
     {

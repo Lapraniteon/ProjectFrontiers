@@ -1,18 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.Events;
 
-public class 3DKeypadPuzzle : MonoBehaviour
+public class NewKeypadPuzzle: MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // if wire puzzel is solved activate display, and 
 }
