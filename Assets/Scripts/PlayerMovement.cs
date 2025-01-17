@@ -30,8 +30,12 @@ public class PlayerMovement : MonoBehaviour
                 if (currentFocusedTarget != null)
                     currentFocusedTarget.m_OnUnfocus.Invoke();
                 
-                previousFocusedTarget = currentFocusedTarget;
-                currentFocusedTarget = hit.transform.GetComponent<MovementTarget>();
+                MovementTarget thisHit = hit.transform.GetComponent<MovementTarget>();
+                
+                if (previousFocusedTarget != thisHit)
+                    previousFocusedTarget = currentFocusedTarget;
+                
+                currentFocusedTarget = thisHit;
                 if (currentFocusedTarget != null)
                 {
                     Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
