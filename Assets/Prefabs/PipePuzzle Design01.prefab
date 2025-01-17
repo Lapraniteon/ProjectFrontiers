@@ -125,6 +125,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
+      propertyPath: pipeButtonLayer
+      value: PipeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
       propertyPath: solution.Array.size
       value: 25
       objectReference: {fileID: 0}
@@ -343,20 +348,65 @@ PrefabInstance:
       propertyPath: solution.Array.data[24].correctOrientation
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PuzzleCompleted
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 49.5
       objectReference: {fileID: 0}
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
@@ -366,17 +416,17 @@ PrefabInstance:
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
@@ -393,6 +443,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7587855304855125606, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7633390106965769365, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7969739919708961797, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: segmentType
@@ -407,6 +467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: segmentType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928317935181313299, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
