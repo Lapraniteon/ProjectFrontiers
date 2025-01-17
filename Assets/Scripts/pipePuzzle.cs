@@ -8,6 +8,10 @@ public class PipePuzzle : MonoBehaviour
     [Tooltip("The name of the layer that the pipe segments are on.")]
     public string pipeSegmentLayer;
     private LayerMask _pipeSegmentLayerMask;
+    
+    [Tooltip("The name of the layer that the button is on.")]
+    public string pipeButtonLayer;
+    private LayerMask _pipeButtonLayerMask;
 
     [System.Serializable]
     public class SegmentSolution
@@ -44,6 +48,7 @@ public class PipePuzzle : MonoBehaviour
     void Start()
     {
         _pipeSegmentLayerMask = LayerMask.GetMask(pipeSegmentLayer);
+        _pipeButtonLayerMask = LayerMask.GetMask(pipeButtonLayer);
         
         // Determine what pipe piece prefab to spawn based on the defined type.
         PipePuzzleSegment[] children = GetComponentsInChildren<PipePuzzleSegment>();
@@ -64,6 +69,11 @@ public class PipePuzzle : MonoBehaviour
                 PipePuzzleSegment segment = hit.transform.GetComponent<PipePuzzleSegment>();
                 if (!segment.IsRotating && segment.segmentType != SegmentTypes.Cross)
                     segment.Rotate();
+            }
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), Mathf.Infinity, _pipeButtonLayerMask, QueryTriggerInteraction.Collide))
+            {
+                Debug.Log("hit button");
+                Solve();
             }
         }
     }

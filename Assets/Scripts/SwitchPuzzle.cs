@@ -25,10 +25,8 @@ public class SwitchPuzzle : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Press");
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, _switchButtonLayerMask, QueryTriggerInteraction.Collide))
             {
-                Debug.Log("Hit");
                 if (!isSolved)
                 {
                     isSolved = true;
