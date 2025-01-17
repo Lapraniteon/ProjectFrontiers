@@ -5360,6 +5360,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: applyCameraRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5578,6 +5583,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraIsLocked: 0
+  lightsTurnedOn: 0
+  solved_firstSwitch: 0
+  solved_keypadPuzzle: 0
+  solved_wirePuzzle: 0
+  solved_pipePuzzle: 0
+  solved_total: 0
+  m_OnPuzzleCompletion:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1517712986
 Transform:
   m_ObjectHideFlags: 0

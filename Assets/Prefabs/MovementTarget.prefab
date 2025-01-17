@@ -205,6 +205,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementTargetData: {fileID: 3805923167315745890}
+  movementTargetCollider: {fileID: 7179790471732503981}
+  lockCameraWhileFocused: 0
+  applyCameraRotation: 0
   m_OnFocus:
     m_PersistentCalls:
       m_Calls: []

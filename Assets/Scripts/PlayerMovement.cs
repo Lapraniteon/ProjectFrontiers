@@ -30,39 +30,47 @@ public class PlayerMovement : MonoBehaviour
                 if (currentFocusedTarget != null)
                     currentFocusedTarget.m_OnUnfocus.Invoke();
                 
-                previousFocusedTarget = currentFocusedTarget;
-                currentFocusedTarget = hit.transform.GetComponent<MovementTarget>();
+                MovementTarget thisHit = hit.transform.GetComponent<MovementTarget>();
+                
+                if (previousFocusedTarget != thisHit)
+                    previousFocusedTarget = currentFocusedTarget;
+                
+                currentFocusedTarget = thisHit;
                 if (currentFocusedTarget != null)
                 {
-                    Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
+                    currentFocusedTarget.movementTargetCollider.enabled = false;
+                    Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
                 }
             }
         }
         else if (Input.GetMouseButtonDown(1))
         {
+            currentFocusedTarget.movementTargetCollider.enabled = true;
             currentFocusedTarget.m_OnUnfocus.Invoke();
             
             if (previousFocusedTarget == null)
                 return;
 
             currentFocusedTarget = previousFocusedTarget;
-            Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
+            Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
         }
     }
 
-    private void Move(Transform targetTransform, UnityEvent onFocusEvent)
+    private void Move(Transform targetTransform, UnityEvent onFocusEvent, bool applyCameraRotation = false)
     {
         GameManager.Instance.cameraIsLocked = currentFocusedTarget.lockCameraWhileFocused;
         
-        StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent));
+        StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent, applyCameraRotation));
     }
 
-    private IEnumerator MoveCoroutine(Transform targetTransform, UnityEvent onFocusEvent)
+    private IEnumerator MoveCoroutine(Transform targetTransform, UnityEvent onFocusEvent, bool applyCameraRotation = false)
     {
-        transform.DOMove(targetTransform.position, movementInterpolationTime);
-        Tween rotationTween = transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
+        Tween movementTween = transform.DOMove(targetTransform.position, movementInterpolationTime);
         
-        yield return rotationTween.WaitForCompletion();
+        if (applyCameraRotation)
+            transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
+        
+        yield return movementTween.WaitForCompletion();
         
         onFocusEvent.Invoke();
     }
