@@ -11,13 +11,13 @@ public class NewKeypadPuzzle : MonoBehaviour
 
     public GameObject noPower;
 
-    //public void Update()
-    //{
-    //    if(GameManager.Instance.solved_wirePuzzle >= 1 && noPower)
-    //    {
-    //        withPower.SetActive(true);
-    //        noPower.SetActive(false);
-    //    }
-    //}
+    public void Update()
+    {
+        if (GameManager.Instance.solved_wirePuzzle >= 1 && noPower)
+        {
+            withPower.SetActive(true);
+            noPower.SetActive(false);
+        }
+    }
 
 }

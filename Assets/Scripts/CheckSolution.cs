@@ -41,7 +41,7 @@ public class CheckSolution : MonoBehaviour
         if (displayedCode.text == solution)
         {
             notSolved.SetActive(false);
-            //GameManager.Instance.solved_keypadPuzzle++;
+            GameManager.Instance.solved_keypadPuzzle++;
             Debug.Log("solved");
             m_OnSolved.Invoke();
             yield return null;
@@ -49,7 +49,7 @@ public class CheckSolution : MonoBehaviour
         else
         {
             notSolved.SetActive(true);
-            displayedCode.text = "ERROR";
+            displayedCode.text = "error";
             yield return new WaitForSeconds(1);
             displayedCode.text = "";
             yield return null;
