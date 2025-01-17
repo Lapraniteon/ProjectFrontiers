@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
                 currentFocusedTarget = hit.transform.GetComponent<MovementTarget>();
                 if (currentFocusedTarget != null)
                 {
-                    Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
+                    Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
                 }
             }
         }
@@ -46,23 +46,25 @@ public class PlayerMovement : MonoBehaviour
                 return;
 
             currentFocusedTarget = previousFocusedTarget;
-            Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus);
+            Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
         }
     }
 
-    private void Move(Transform targetTransform, UnityEvent onFocusEvent)
+    private void Move(Transform targetTransform, UnityEvent onFocusEvent, bool applyCameraRotation = false)
     {
         GameManager.Instance.cameraIsLocked = currentFocusedTarget.lockCameraWhileFocused;
         
-        StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent));
+        StartCoroutine(MoveCoroutine(targetTransform, onFocusEvent, applyCameraRotation));
     }
 
-    private IEnumerator MoveCoroutine(Transform targetTransform, UnityEvent onFocusEvent)
+    private IEnumerator MoveCoroutine(Transform targetTransform, UnityEvent onFocusEvent, bool applyCameraRotation = false)
     {
-        transform.DOMove(targetTransform.position, movementInterpolationTime);
-        Tween rotationTween = transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
+        Tween movementTween = transform.DOMove(targetTransform.position, movementInterpolationTime);
         
-        yield return rotationTween.WaitForCompletion();
+        if (applyCameraRotation)
+            transform.DORotate(targetTransform.localEulerAngles, movementInterpolationTime);
+        
+        yield return movementTween.WaitForCompletion();
         
         onFocusEvent.Invoke();
     }
