@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     public int solved_keypadPuzzle;
     public int solved_wirePuzzle;
     public int solved_pipePuzzle;
+    public int solved_total;
 
     [Space]
     [Header("Events")]
@@ -41,6 +42,8 @@ public class GameManager : MonoBehaviour
 
     public void PuzzleCompleted()
     {
+        solved_total = solved_firstSwitch + solved_keypadPuzzle + solved_wirePuzzle + solved_pipePuzzle;
+        
         Debug.Log("Current amount of puzzles solved: " + (solved_firstSwitch + solved_keypadPuzzle + solved_wirePuzzle + solved_pipePuzzle));
         m_OnPuzzleCompletion.Invoke();
     }
