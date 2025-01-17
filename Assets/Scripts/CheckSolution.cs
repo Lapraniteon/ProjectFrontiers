@@ -41,7 +41,8 @@ public class CheckSolution : MonoBehaviour
         if (displayedCode.text == solution)
         {
             notSolved.SetActive(false);
-            GameManager.Instance.solved_keypadPuzzle++;
+            //GameManager.Instance.solved_keypadPuzzle++;
+            Debug.Log("solved");
             m_OnSolved.Invoke();
             yield return null;
         }

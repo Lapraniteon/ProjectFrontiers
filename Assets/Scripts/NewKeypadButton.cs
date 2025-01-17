@@ -10,9 +10,6 @@ public class NewKeypadButton : MonoBehaviour
     [Tooltip("Displayes the code the player has typed")]
     public TMP_Text displayedCode;
 
-    private string tempString;
-    private char[] tempCharArray;
-
     private Vector3 GetMousePos()    // returns the mouse position
     {
         return Camera.main.WorldToScreenPoint(transform.position);
@@ -23,20 +20,11 @@ public class NewKeypadButton : MonoBehaviour
         _mousePosition = Input.mousePosition - GetMousePos();
         if (gameObject.name == "Restart Button")
         {
-            displayedCode.text = "____";
+            displayedCode.text = "";
         } else
         {
-            tempString = displayedCode.ToString();
-            tempCharArray = tempString.ToCharArray();
-            for (int i = 0; i < displayedCode.text.Length - 1; i++)
-            {
-                if (displayedCode.text[i] == '_')
-                {
-                    tempCharArray[i] = gameObject.name[6];
-                    break;
-                }
-            }
-            displayedCode.text = tempString;
+            if(displayedCode.text.Length < 4)
+                displayedCode.text += gameObject.name[6];
         }
     }
 }
