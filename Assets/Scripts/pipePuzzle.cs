@@ -7,6 +7,10 @@ public class PipePuzzle : MonoBehaviour
     [Tooltip("The name of the layer that the pipe segments are on.")]
     public string pipeSegmentLayer;
     private LayerMask _pipeSegmentLayerMask;
+    
+    [Tooltip("The name of the layer that the button is on.")]
+    public string pipeButtonLayer;
+    private LayerMask _pipeButtonLayerMask;
 
     [System.Serializable]
     public class SegmentSolution
@@ -62,6 +66,10 @@ public class PipePuzzle : MonoBehaviour
                 if (!segment.IsRotating && segment.segmentType != SegmentTypes.Cross)
                     segment.Rotate();
             }
+            else if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), Mathf.Infinity, _pipeSegmentLayerMask, QueryTriggerInteraction.Collide))
+            {
+                Solve();
+            }
         }
     }
 
@@ -69,6 +77,8 @@ public class PipePuzzle : MonoBehaviour
     {
         if (!CheckSolution())
             return;
+
+        GameManager.Instance.solved_pipePuzzle++;
     }
 
     public bool CheckSolution()
