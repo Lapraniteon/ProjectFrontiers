@@ -31,6 +31,10 @@ public class GameManager : MonoBehaviour
     public int solved_pipePuzzle;
     public int solved_total;
 
+    public int solved_crowbar;
+
+    public bool hasCrowbar;
+
     [Space]
     [Header("Events")]
     public UnityEvent m_OnPuzzleCompletion;

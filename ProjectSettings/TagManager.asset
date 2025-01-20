@@ -16,8 +16,8 @@ TagManager:
   - PipePuzzleSegment
   - SwitchPuzzle
   - PipeButton
-  - 
-  - 
+  - Crowbar
+  - InteractWithCrowbar
   - 
   - 
   - 
