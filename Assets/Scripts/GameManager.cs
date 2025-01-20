@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
     public int solved_pipePuzzle;
     public int solved_total;
 
+    public bool securityCamerasOn;
+
     [Space]
     [Header("Events")]
     public UnityEvent m_OnPuzzleCompletion;
