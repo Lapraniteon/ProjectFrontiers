@@ -853,6 +853,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparks Burst
       objectReference: {fileID: 0}
+    - target: {fileID: 2300151373034005482, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9085375301489394188, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -981,6 +986,134 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35265e8a230ed8c4eb0e76365b039428, type: 3}
+--- !u!1001 &3932134559429989762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3317275228723811481, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_Name
+      value: Droplets Burst
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: ColorModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.5686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.89049053
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime0
+      value: 32768
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040132494606464783, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5322694945479211394, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762126961610241407, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2778e64e5369e479915c249ac04d7a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -990,3 +1123,4 @@ SceneRoots:
   - {fileID: 344860109}
   - {fileID: 2022163446990264516}
   - {fileID: 1362479267119728669}
+  - {fileID: 3932134559429989762}
