@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
 
     public bool hasCrowbar;
 
+    public bool securityCamerasOn;
+
     [Space]
     [Header("Events")]
     public UnityEvent m_OnPuzzleCompletion;
