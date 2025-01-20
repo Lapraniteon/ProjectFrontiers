@@ -8,18 +8,6 @@ public class IsWirePuzzelSolved : MonoBehaviour
     public GameObject[] wireConnected;
 
     public UnityEvent m_OnSolved;
-    //private bool isSolved;
-
-    //private void Update()
-    //{
-    //    CheckSolution();
-    //    if (CheckSolution() && !isSolved)
-    //    {
-    //        Debug.Log(CheckSolution());
-    //        isSolved = true;
-    //    }
-            
-    //}
 
     public bool CheckSolution()
     {
