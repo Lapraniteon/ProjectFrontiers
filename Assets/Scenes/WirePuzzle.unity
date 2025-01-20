@@ -122,6 +122,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &285864034 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+    type: 3}
+  m_PrefabInstance: {fileID: 513034795}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7beb71bad3f44f0995821fe354ea80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &513034795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +142,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1146323482161043481, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+        type: 3}
+      propertyPath: puzzel
+      value: 
+      objectReference: {fileID: 285864034}
+    - target: {fileID: 4120235720476021918, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+        type: 3}
+      propertyPath: puzzel
+      value: 
+      objectReference: {fileID: 285864034}
     - target: {fileID: 4871694954253319679, guid: 188a6cea6e4e74649bf03ccebcbf4471,
         type: 3}
       propertyPath: m_Name
@@ -185,6 +207,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5245060151248192301, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+        type: 3}
+      propertyPath: puzzel
+      value: 
+      objectReference: {fileID: 285864034}
+    - target: {fileID: 8101352838268990021, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+        type: 3}
+      propertyPath: puzzel
+      value: 
+      objectReference: {fileID: 285864034}
+    - target: {fileID: 8209323027436496120, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+        type: 3}
+      propertyPath: puzzel
+      value: 
+      objectReference: {fileID: 285864034}
+    - target: {fileID: 8787753423740575635, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+        type: 3}
+      propertyPath: puzzel
+      value: 
+      objectReference: {fileID: 285864034}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -220,10 +262,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraIsLocked: 0
+  lightsTurnedOn: 0
   solved_firstSwitch: 0
   solved_keypadPuzzle: 0
   solved_wirePuzzle: 0
   solved_pipePuzzle: 0
+  solved_total: 0
+  m_OnPuzzleCompletion:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1885327432
 Transform:
   m_ObjectHideFlags: 0

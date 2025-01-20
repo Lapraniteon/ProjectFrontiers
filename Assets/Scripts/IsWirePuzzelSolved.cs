@@ -9,12 +9,6 @@ public class IsWirePuzzelSolved : MonoBehaviour
 
     public UnityEvent m_OnSolved;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-            Debug.Log(CheckSolution());
-    }
-
     public bool CheckSolution()
     {
         for (int i = 0; i < wireConnected.Length; i++)
