@@ -3808,6 +3808,18 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &628435384 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+    type: 3}
+  m_PrefabInstance: {fileID: 412629624}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fcd4ea4823a9a4b818d6ff81718476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &646358761
 Mesh:
   m_ObjectHideFlags: 0
@@ -4314,12 +4326,17 @@ PrefabInstance:
     - target: {fileID: 2958129837441880575, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.7
+      value: -28.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958129837441880575, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 2958129837441880575, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.56
+      value: -13.41
       objectReference: {fileID: 0}
     - target: {fileID: 3312755339259585206, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
@@ -4453,13 +4470,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 628435384}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 628435384}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SwitchPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SwitchPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747597571884965886, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4156698270887736729, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
