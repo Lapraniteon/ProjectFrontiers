@@ -9,6 +9,8 @@ public class IsWirePuzzelSolved : MonoBehaviour
 
     public UnityEvent m_OnSolved;
 
+    public bool isFocused;
+
     public bool CheckSolution()
     {
         for (int i = 0; i < wireConnected.Length; i++)
@@ -21,4 +23,6 @@ public class IsWirePuzzelSolved : MonoBehaviour
         m_OnSolved.Invoke();
         return true;
     }
+    
+    public void SetFocus(bool focus) => isFocused = focus;
 }

@@ -4181,6 +4181,81 @@ PrefabInstance:
       propertyPath: lockCameraWhileFocused
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1103397312}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1103397312}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IsWirePuzzelSolved, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IsWirePuzzelSolved, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522386415142060466, guid: 88c45a93fd8c14340b924ce49aa830c8,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2562868322006186350, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4414,27 +4489,27 @@ PrefabInstance:
     - target: {fileID: 4249762368694336762, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.023853919
+      value: 0.023997841
       objectReference: {fileID: 0}
     - target: {fileID: 4249762368694336762, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0027066704
+      value: -0.0006625096
       objectReference: {fileID: 0}
     - target: {fileID: 4249762368694336762, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.99333763
+      value: 0.999331
       objectReference: {fileID: 0}
     - target: {fileID: 4249762368694336762, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.11271259
+      value: 0.027588528
       objectReference: {fileID: 0}
     - target: {fileID: 4249762368694336762, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -12.947
+      value: -3.163
       objectReference: {fileID: 0}
     - target: {fileID: 4471536065856180147, guid: 88c45a93fd8c14340b924ce49aa830c8,
         type: 3}
@@ -7975,6 +8050,18 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &1103397312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
+    type: 3}
+  m_PrefabInstance: {fileID: 1575097541}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7beb71bad3f44f0995821fe354ea80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1106893198
 Mesh:
   m_ObjectHideFlags: 0
@@ -9301,35 +9388,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1639711575082797900, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.19496918
-      objectReference: {fileID: 0}
-    - target: {fileID: 3263865457699801636, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.19496918
-      objectReference: {fileID: 0}
     - target: {fileID: 4871694954253319679, guid: 188a6cea6e4e74649bf03ccebcbf4471,
         type: 3}
       propertyPath: m_Name
       value: WirePuzzel
-      objectReference: {fileID: 0}
-    - target: {fileID: 4968688792117371143, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4968688792117371143, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4968688792117371143, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4968688792117371143, guid: 188a6cea6e4e74649bf03ccebcbf4471,
         type: 3}
@@ -9381,56 +9443,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4968688792117371143, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 707736288}
-    - target: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PuzzleCompleted
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098798619643637459, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6678492889441507243, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.19496918
-      objectReference: {fileID: 0}
-    - target: {fileID: 7336425605720728929, guid: 188a6cea6e4e74649bf03ccebcbf4471,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.19496918
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
