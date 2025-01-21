@@ -21,4 +21,10 @@ public class MovementTarget : MonoBehaviour
     public UnityEvent m_OnFocus;
     [Tooltip("Methods to run when this object becomes unfocused.")]
     public UnityEvent m_OnUnfocus;
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.white;
+        Gizmos.DrawSphere(transform.position, .5f);
+    }
 }
