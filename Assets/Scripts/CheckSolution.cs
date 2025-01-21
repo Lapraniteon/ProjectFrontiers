@@ -46,6 +46,7 @@ public class CheckSolution : MonoBehaviour
         if (displayedCode.text == solution)
         {
             notSolved.SetActive(false);
+            puzzle.isFocused = false;
             GameManager.Instance.solved_keypadPuzzle++;
             m_OnSolved.Invoke();
             yield return null;

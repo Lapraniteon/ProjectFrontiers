@@ -13,8 +13,6 @@ public class PipePuzzle : MonoBehaviour
     public string pipeButtonLayer;
     private LayerMask _pipeButtonLayerMask;
 
-    public bool isFocused;
-
     [System.Serializable]
     public class SegmentSolution
     {
@@ -64,7 +62,7 @@ public class PipePuzzle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && isFocused)
+        if (Input.GetMouseButtonDown(0))
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, _pipeSegmentLayerMask, QueryTriggerInteraction.Collide))
             {
@@ -103,6 +101,4 @@ public class PipePuzzle : MonoBehaviour
         Debug.Log("Pipe Puzzle Solved!");
         return true;
     }
-    
-    public void SetFocus(bool focus) => isFocused = focus;
 }
