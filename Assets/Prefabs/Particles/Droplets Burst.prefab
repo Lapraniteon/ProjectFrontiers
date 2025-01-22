@@ -10,6 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
       propertyPath: ForceModule.inWorldSpace
       value: 1
       objectReference: {fileID: 0}
