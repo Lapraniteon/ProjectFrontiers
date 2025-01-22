@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class IntroCutscene : MonoBehaviour
 {
@@ -10,16 +11,9 @@ public class IntroCutscene : MonoBehaviour
     public Image overlay;
     public Image[] panels;
     
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Cutscene());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     IEnumerator Cutscene()
@@ -33,5 +27,8 @@ public class IntroCutscene : MonoBehaviour
             yield return fadeOut.WaitForCompletion();
             panels[i].gameObject.SetActive(false);
         }
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        yield return null;
     }
 }
