@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 2151019860748086825}
+  puzzel: {fileID: 0}
   wiresConnected: 0
 --- !u!1 &235591956664346819
 GameObject:
@@ -1243,8 +1244,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5414806513272262}
   - {fileID: 5814406243621555146}
@@ -1769,6 +1770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 5877434606440855346}
+  puzzel: {fileID: 0}
   wiresConnected: 0
 --- !u!1 &7060651462140516573
 GameObject:
@@ -1890,6 +1892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 6298623697855646323}
+  puzzel: {fileID: 0}
   wiresConnected: 0
 --- !u!1 &7328625790512414058
 GameObject:
@@ -2481,6 +2484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 6478343065128583690}
+  puzzel: {fileID: 0}
   wiresConnected: 0
 --- !u!1 &8184457957902113327
 GameObject:
@@ -2602,6 +2606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 5099691825351265124}
+  puzzel: {fileID: 0}
   wiresConnected: 0
 --- !u!1 &8660745460091503244
 GameObject:
@@ -2723,6 +2728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 6109020710302252210}
+  puzzel: {fileID: 0}
   wiresConnected: 0
 --- !u!1 &8955762561720524048
 GameObject:
