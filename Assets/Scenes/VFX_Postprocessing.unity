@@ -3785,12 +3785,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1260051001 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8928317935181313299, guid: 749defd58610eaf448165ddb1b3a37b4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1612012458}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1260051002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 32661393626307145, guid: 749defd58610eaf448165ddb1b3a37b4,
@@ -4637,9 +4631,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
+      propertyPath: pipeButtonLayer
+      value: SwitchPuzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
+        type: 3}
       propertyPath: dropletsParticles
       value: 
-      objectReference: {fileID: 1260051001}
+      objectReference: {fileID: 3317275228723811481, guid: ce2778e64e5369e479915c249ac04d7a,
+        type: 3}
     - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: checkSolutionButton
@@ -6070,37 +6070,37 @@ PrefabInstance:
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.749794
+      value: 21.488111
       objectReference: {fileID: 0}
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.341287
+      value: 4.6570406
       objectReference: {fileID: 0}
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 40.868233
+      value: 39.448116
       objectReference: {fileID: 0}
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.99941903
+      value: -0.99988866
       objectReference: {fileID: 0}
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033330332
+      value: 0.008746598
       objectReference: {fileID: 0}
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0044916268
+      value: -0.010748312
       objectReference: {fileID: 0}
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.005525347
+      value: 0.005538764
       objectReference: {fileID: 0}
     - target: {fileID: 2118637437105734965, guid: 0d9511cdcc8536447a37136431ff3a2f,
         type: 3}

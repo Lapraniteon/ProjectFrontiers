@@ -15,18 +15,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
+      propertyPath: InitialModule.size3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
       propertyPath: ForceModule.inWorldSpace
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.07
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 0.04
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
