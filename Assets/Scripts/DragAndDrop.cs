@@ -45,6 +45,7 @@ public class DragAndDrop : MonoBehaviour
         {
             transform.position = port.position;
             wiresConnected = true;
+            Instantiate(puzzel.sparksParticles, transform.position, Quaternion.identity);
             puzzel.CheckSolution();
         }
     }

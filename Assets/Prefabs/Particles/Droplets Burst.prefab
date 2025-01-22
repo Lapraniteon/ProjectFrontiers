@@ -10,13 +10,63 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.size3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
       propertyPath: ForceModule.inWorldSpace
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.62352943
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.6139736
+      objectReference: {fileID: 0}
+    - target: {fileID: 717194234186121340, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300151373034005482, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}
       propertyPath: m_Name
       value: Droplets Burst
+      objectReference: {fileID: 0}
+    - target: {fileID: 8663959865713397489, guid: c9cd31cfda631c24b80d321bfe158a64,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9085375301489394188, guid: c9cd31cfda631c24b80d321bfe158a64,
         type: 3}

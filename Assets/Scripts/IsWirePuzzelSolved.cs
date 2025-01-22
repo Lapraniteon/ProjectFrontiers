@@ -7,6 +7,8 @@ public class IsWirePuzzelSolved : MonoBehaviour
 {
     public GameObject[] wireConnected;
 
+    public GameObject sparksParticles;
+
     public UnityEvent m_OnSolved;
 
     public bool CheckSolution()

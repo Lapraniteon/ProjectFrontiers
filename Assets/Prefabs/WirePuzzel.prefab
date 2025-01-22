@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 2151019860748086825}
-  puzzel: {fileID: 0}
+  puzzel: {fileID: 5098798619643637459}
   wiresConnected: 0
 --- !u!1 &235591956664346819
 GameObject:
@@ -208,7 +208,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.19021797
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -468,7 +468,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.19021797
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -728,7 +728,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.19021797
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1280,6 +1280,8 @@ MonoBehaviour:
   - {fileID: 8660745460091503244}
   - {fileID: 7060651462140516573}
   - {fileID: 6953647990146023471}
+  sparksParticles: {fileID: 2300151373034005482, guid: c9cd31cfda631c24b80d321bfe158a64,
+    type: 3}
   m_OnSolved:
     m_PersistentCalls:
       m_Calls: []
@@ -1369,7 +1371,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.19021797
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1770,7 +1772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 5877434606440855346}
-  puzzel: {fileID: 0}
+  puzzel: {fileID: 5098798619643637459}
   wiresConnected: 0
 --- !u!1 &7060651462140516573
 GameObject:
@@ -1892,7 +1894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 6298623697855646323}
-  puzzel: {fileID: 0}
+  puzzel: {fileID: 5098798619643637459}
   wiresConnected: 0
 --- !u!1 &7328625790512414058
 GameObject:
@@ -1980,7 +1982,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.19021797
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2484,7 +2486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 6478343065128583690}
-  puzzel: {fileID: 0}
+  puzzel: {fileID: 5098798619643637459}
   wiresConnected: 0
 --- !u!1 &8184457957902113327
 GameObject:
@@ -2606,7 +2608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 5099691825351265124}
-  puzzel: {fileID: 0}
+  puzzel: {fileID: 5098798619643637459}
   wiresConnected: 0
 --- !u!1 &8660745460091503244
 GameObject:
@@ -2728,7 +2730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 1
   port: {fileID: 6109020710302252210}
-  puzzel: {fileID: 0}
+  puzzel: {fileID: 5098798619643637459}
   wiresConnected: 0
 --- !u!1 &8955762561720524048
 GameObject:
@@ -2816,7 +2818,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.19021797
         inSlope: 0
         outSlope: 0
         tangentMode: 0
