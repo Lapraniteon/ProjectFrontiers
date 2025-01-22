@@ -43,6 +43,10 @@ public class PipePuzzle : MonoBehaviour
     [Tooltip("The objects to spawn for each type of segment.")]
     public SegmentType[] segmentTypeObjects;
 
+    [Header("Particles")]
+    public Transform checkSolutionButton;
+    public GameObject dropletsParticles;
+
     public UnityEvent m_OnSolved;
 
     void Start()
@@ -73,6 +77,7 @@ public class PipePuzzle : MonoBehaviour
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), Mathf.Infinity, _pipeButtonLayerMask, QueryTriggerInteraction.Collide))
             {
                 Debug.Log("hit button");
+                Instantiate(dropletsParticles, checkSolutionButton.position, Quaternion.identity);
                 Solve();
             }
         }
