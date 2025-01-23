@@ -153,6 +153,7 @@ MonoBehaviour:
   crowbarLayer: Crowbar
   interactCrowbarMask: 
   perimeter: 5
+  deletedObject: {fileID: 9190627704331312396}
   m_OnSolved:
     m_PersistentCalls:
       m_Calls: []
