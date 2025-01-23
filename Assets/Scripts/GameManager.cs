@@ -59,4 +59,6 @@ public class GameManager : MonoBehaviour
         if (!lightsTurnedOn)
             return;
     }
+    
+    public void LoadNextScene() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 }
