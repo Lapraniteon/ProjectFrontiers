@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -39,8 +40,8 @@ public class CameraController : MonoBehaviour
         float xMagnitude = xPositionNormalized * 2f - 1f;
         float yMagnitude = yPositionNormalized * 2f - 1f;
         
-        transform.Rotate(0f, xMagnitude * cameraMoveSpeed, 0f, Space.World);
-        transform.Rotate(-yMagnitude * cameraMoveSpeed, 0f, 0f, Space.Self);
+        transform.Rotate(0f, xMagnitude * cameraMoveSpeed * Time.deltaTime, 0f, Space.World);
+        transform.Rotate(-yMagnitude * cameraMoveSpeed * Time.deltaTime, 0f, 0f, Space.Self);
 
         float clampedX = transform.localEulerAngles.x;
         if (clampedX > 180f)
