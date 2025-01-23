@@ -18,6 +18,36 @@ PrefabInstance:
       propertyPath: solution
       value: 2638
       objectReference: {fileID: 0}
+    - target: {fileID: 3668583370302248372, guid: 3476d53da8af84faa961454e84d7a035,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668583370302248372, guid: 3476d53da8af84faa961454e84d7a035,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668583370302248372, guid: 3476d53da8af84faa961454e84d7a035,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668583370302248372, guid: 3476d53da8af84faa961454e84d7a035,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadNextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668583370302248372, guid: 3476d53da8af84faa961454e84d7a035,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668583370302248372, guid: 3476d53da8af84faa961454e84d7a035,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5754281542842583862, guid: 3476d53da8af84faa961454e84d7a035,
         type: 3}
       propertyPath: hasPower
