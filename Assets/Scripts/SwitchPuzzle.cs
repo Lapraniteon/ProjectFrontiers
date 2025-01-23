@@ -13,6 +13,8 @@ public class SwitchPuzzle : MonoBehaviour
     [Tooltip("Is this puzzle solved?")]
     public bool isSolved = false;
 
+    public bool isFocused = false;
+
     public UnityEvent m_OnSolved;
 
     private void Start()
@@ -27,7 +29,7 @@ public class SwitchPuzzle : MonoBehaviour
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, _switchButtonLayerMask, QueryTriggerInteraction.Collide))
             {
-                if (!isSolved)
+                if (!isSolved && isFocused)
                 {
                     isSolved = true;
                     Debug.Log("Switch solved!");
@@ -37,4 +39,6 @@ public class SwitchPuzzle : MonoBehaviour
             }
         }
     }
+    
+    public void SetFocus(bool focus) => isFocused = focus;
 }
