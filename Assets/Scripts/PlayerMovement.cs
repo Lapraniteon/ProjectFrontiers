@@ -35,9 +35,14 @@ public class PlayerMovement : MonoBehaviour
                     currentFocusedTarget.m_OnUnfocus.Invoke();
                 
                 MovementTarget thisHit = hit.transform.GetComponent<MovementTarget>();
-                
+
                 if (previousFocusedTarget != thisHit)
+                {
                     previousFocusedTarget = currentFocusedTarget;
+                    
+                    if (currentFocusedTarget != null)
+                        currentFocusedTarget.movementTargetCollider.enabled = true;
+                }
                 
                 currentFocusedTarget = thisHit;
                 if (currentFocusedTarget != null)
