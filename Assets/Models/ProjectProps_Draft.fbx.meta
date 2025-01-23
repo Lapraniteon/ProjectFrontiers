@@ -3,7 +3,32 @@ guid: c5a804ad35713704fb3c091c417a2f37
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DullShine
+    second: {fileID: 2100000, guid: ea95189f85f32cd4b85a14541272963c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HardPlastic
+    second: {fileID: 2100000, guid: 7dd4f8fcb2ffd774b8f3533c6c3d83a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rusty
+    second: {fileID: 2100000, guid: 658fea59bf3a3a6458ba5c83f0500d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShinePlastic
+    second: {fileID: 2100000, guid: fdca15a941dfab8429bb401e904dacfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WornOutMetal
+    second: {fileID: 2100000, guid: 6d70f59821a460f49bb99c63f6795b02, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
