@@ -32,10 +32,13 @@ public class Crowbar : MonoBehaviour
         {
             if (GameManager.Instance.hasCrowbar && Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, perimeter, _interactCrowbarMask, QueryTriggerInteraction.Collide))
             {
-                Debug.Log("gotcha");
-                GameManager.Instance.solved_crowbar++;
-                m_OnSolved.Invoke();
-                Destroy(gameObject);
+                if (hit.collider.gameObject == gameObject)
+                {
+                    Debug.Log("gotcha");
+                    GameManager.Instance.solved_crowbar++;
+                    m_OnSolved.Invoke();
+                    Destroy(gameObject);
+                }
             }
 
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), perimeter, _crowbarMask, QueryTriggerInteraction.Collide))
