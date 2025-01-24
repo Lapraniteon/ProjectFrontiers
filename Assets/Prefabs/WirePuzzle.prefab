@@ -1228,7 +1228,7 @@ GameObject:
   - component: {fileID: 4968688792117371143}
   - component: {fileID: 5098798619643637459}
   m_Layer: 0
-  m_Name: WirePuzzel
+  m_Name: WirePuzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
