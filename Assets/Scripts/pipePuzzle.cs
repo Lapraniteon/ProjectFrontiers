@@ -45,7 +45,10 @@ public class PipePuzzle : MonoBehaviour
 
     [Header("Particles")]
     public Transform checkSolutionButton;
+
     public GameObject dropletsParticles;
+
+    public bool isFocused = false;
 
     public UnityEvent m_OnSolved;
 
@@ -66,7 +69,7 @@ public class PipePuzzle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && isFocused)
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, _pipeSegmentLayerMask, QueryTriggerInteraction.Collide))
             {
@@ -106,4 +109,6 @@ public class PipePuzzle : MonoBehaviour
         Debug.Log("Pipe Puzzle Solved!");
         return true;
     }
+    
+    public void SetFocus(bool focus) => isFocused = focus;
 }
