@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5394266392543502164}
   - component: {fileID: 1518549494319937387}
+  - component: {fileID: 8740669545937187897}
   m_Layer: 10
   m_Name: Crowbar
   m_TagString: Untagged
@@ -51,6 +52,27 @@ MonoBehaviour:
   m_OnSolved:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &8740669545937187897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9190627704331312396}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13531852, y: 0.17881739, z: 1.1910086}
+  m_Center: {x: -0.012837768, y: 0.04505974, z: 0.012168765}
 --- !u!1001 &3223926713929076304
 PrefabInstance:
   m_ObjectHideFlags: 0
