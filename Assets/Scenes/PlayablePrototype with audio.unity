@@ -951,6 +951,11 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 63579833}
+    - target: {fileID: 4267418437428810693, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4314624585827080560, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -961,6 +966,21 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 192329410}
+    - target: {fileID: 5022674732765363197, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954846068947449113, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.399
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954846068947449113, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.203
+      objectReference: {fileID: 0}
     - target: {fileID: 7742731467257750274, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1048,26 +1068,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: --3D Objects--
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350242460981442817, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 19.76367
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350242460981442817, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 10.433232
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350242460981442817, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -9.200585
-      objectReference: {fileID: 0}
-    - target: {fileID: 3350242460981442817, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 4.716616
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
