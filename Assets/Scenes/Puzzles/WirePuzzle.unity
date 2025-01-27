@@ -268,6 +268,9 @@ MonoBehaviour:
   solved_wirePuzzle: 0
   solved_pipePuzzle: 0
   solved_total: 0
+  solved_crowbar: 0
+  hasCrowbar: 0
+  securityCamerasOn: 0
   m_OnPuzzleCompletion:
     m_PersistentCalls:
       m_Calls: []
@@ -541,6 +544,74 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1001 &2918315163708087220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584807974726671988, guid: a78e3832d66a04510a9ec5dbee004f42,
+        type: 3}
+      propertyPath: m_Name
+      value: WirePuzzelWithModel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a78e3832d66a04510a9ec5dbee004f42, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -549,3 +620,4 @@ SceneRoots:
   - {fileID: 1923720346}
   - {fileID: 1885327432}
   - {fileID: 513034795}
+  - {fileID: 2918315163708087220}
