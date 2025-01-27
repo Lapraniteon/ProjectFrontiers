@@ -14,9 +14,12 @@ public class DragAndDrop : MonoBehaviour
 
     public bool wiresConnected;
 
+    private float _tempMousePositionX;
+
     void Start()
     {
         wiresConnected = false;
+        _tempMousePositionX = transform.position.x;
     }
 
     private Vector3 GetMousePos()    // returns the mouse position
@@ -27,12 +30,12 @@ public class DragAndDrop : MonoBehaviour
     private void OnMouseDown()    // gets the mouse position when left click is down
     {
         _mousePosition = Input.mousePosition - GetMousePos();
+        transform.position = new Vector3(_tempMousePositionX, transform.position.y, transform.position.z);
         if (Vector3.Distance(transform.position, port.position) <= tolerance)
         {
             wiresConnected = false;
         }
     }
-
 
     private void OnMouseDrag()    // set game objects's position to mouse position
     {
