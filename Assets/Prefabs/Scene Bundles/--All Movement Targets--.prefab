@@ -695,13 +695,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateCamera
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -715,8 +735,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SecurityCam, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -859,13 +889,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateCamera
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -879,8 +929,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SecurityCam, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -1167,13 +1227,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateCamera
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -1187,8 +1267,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SecurityCam, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -1951,13 +2041,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateCamera
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -1971,8 +2081,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SecurityCam, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2845,13 +2965,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateCamera
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2865,8 +3005,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SecurityCam, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -3009,13 +3159,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateCamera
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -3029,8 +3199,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SecurityCam, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
