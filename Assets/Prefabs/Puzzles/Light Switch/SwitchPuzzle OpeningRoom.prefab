@@ -11,7 +11,17 @@ PrefabInstance:
     - target: {fileID: 195531971169130498, guid: 6d88d7055194c0042826b62c90903f65,
         type: 3}
       propertyPath: m_Name
-      value: SwitchPuzzle Variant
+      value: SwitchPuzzle OpeningRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752136430963884592, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001305907770970487, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 2296615716139047131, guid: 6d88d7055194c0042826b62c90903f65,
         type: 3}
@@ -63,8 +73,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1118488333195427466}
+    - target: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AnimateSwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: SwitchBoxAnimations, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725846953462371595, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412186346164367301, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 195531971169130498, guid: 6d88d7055194c0042826b62c90903f65,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1118488333195427466}
   m_SourcePrefab: {fileID: 100100000, guid: 6d88d7055194c0042826b62c90903f65, type: 3}
+--- !u!1 &3122883749039359346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 195531971169130498, guid: 6d88d7055194c0042826b62c90903f65,
+    type: 3}
+  m_PrefabInstance: {fileID: 3017444134048783728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1118488333195427466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3122883749039359346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77795872e869bed4e87c126bdfa9fab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorPivot: {fileID: 0}
+  switchPivot: {fileID: 0}
