@@ -552,21 +552,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 234064688926247999, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 234064688926247999, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureScale.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 234064688926247999, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -617,130 +602,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 794897517223726817, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 794897517223726817, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureScale.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 794897517223726817, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 912813483462607324, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 912813483462607324, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureScale.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 912813483462607324, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1059337538462279627, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1220325010856191040, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1220325010856191040, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureScale.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1220325010856191040, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1584807974726671988, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_Name
       value: WirePuzzelWithModel
-      objectReference: {fileID: 0}
-    - target: {fileID: 2097677921741288411, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: tolerance
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2305677609668472211, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: tolerance
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3099995136818057195, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3099995136818057195, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureScale.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3099995136818057195, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3711539276859550866, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3711539276859550866, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.textureScale.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3711539276859550866, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5092644270713974972, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6175974313835003802, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: tolerance
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6805019558034639498, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: tolerance
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6831918530215778093, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: tolerance
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7637379123819244178, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8540388995336863067, guid: a78e3832d66a04510a9ec5dbee004f42,
-        type: 3}
-      propertyPath: tolerance
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
