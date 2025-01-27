@@ -43,6 +43,7 @@ Transform:
   - {fileID: 7045639280144011732}
   - {fileID: 1544690807579888619}
   - {fileID: 5496170181373615173}
+  - {fileID: 9153542992515327330}
   - {fileID: 8341749425548978343}
   - {fileID: 6937392190466079625}
   - {fileID: 5403373369185706257}
@@ -63,13 +64,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -83,8 +104,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -183,7 +214,7 @@ PrefabInstance:
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -194,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -212,8 +248,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetFocus
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -232,12 +278,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SwitchPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -248,12 +304,12 @@ PrefabInstance:
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.534
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -30.04
+      value: -30.05
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -536,8 +592,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
-      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -546,7 +612,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -556,12 +642,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PipePuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PipePuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -1640,16 +1756,21 @@ PrefabInstance:
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -1659,7 +1780,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -1669,7 +1805,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AnimateDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -1679,12 +1830,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AnimateDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SwitchPuzzle, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SwitchBoxAnimations, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -1694,12 +1865,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SwitchPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: SwitchBoxAnimations, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -1911,6 +2107,140 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
     type: 3}
   m_PrefabInstance: {fileID: 5501430616713288863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5702285185052117577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3804073045478310470}
+    m_Modifications:
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7179790471732503981, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.1593127
+      objectReference: {fileID: 0}
+    - target: {fileID: 7179790471732503981, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.28287607
+      objectReference: {fileID: 0}
+    - target: {fileID: 7179790471732503981, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.11785698
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484404655772387746, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_Name
+      value: MovementTarget (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a8ff188823fee540b2298458cd11e42, type: 3}
+--- !u!4 &9153542992515327330 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
+    type: 3}
+  m_PrefabInstance: {fileID: 5702285185052117577}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5731852458248650803
 PrefabInstance:
@@ -2235,8 +2565,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
-      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2245,7 +2585,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -2255,12 +2615,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetFocus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NewKeypadPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: NewKeypadPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
@@ -2322,6 +2712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805923167315745890, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 3805923167315745890, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2420,17 +2815,17 @@ PrefabInstance:
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.82
+      value: -18.06
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.22
+      value: -2.18
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.6100006
+      value: 3.07
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2470,17 +2865,17 @@ PrefabInstance:
     - target: {fileID: 3805923167315745890, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.753
+      value: 1.993
       objectReference: {fileID: 0}
     - target: {fileID: 3805923167315745890, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.163
+      value: 3.123
       objectReference: {fileID: 0}
     - target: {fileID: 3805923167315745890, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.472
+      value: 3.0120008
       objectReference: {fileID: 0}
     - target: {fileID: 3805923167315745890, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2515,7 +2910,7 @@ PrefabInstance:
     - target: {fileID: 7179790471732503981, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_Radius
-      value: 3.51
+      value: 1.99
       objectReference: {fileID: 0}
     - target: {fileID: 8484404655772387746, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2777,7 +3172,7 @@ PrefabInstance:
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2788,6 +3183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2806,8 +3206,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetFocus
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
@@ -2826,12 +3236,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: NewKeypadPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254479357342753066, guid: 6a8ff188823fee540b2298458cd11e42,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3469316472254590763, guid: 6a8ff188823fee540b2298458cd11e42,
