@@ -6,6 +6,8 @@ using UnityEngine;
 public class SecurityCam : MonoBehaviour
 {
 
+    public Camera renderCamera;
+    
     public Material mat_On;
     public Material mat_Off;
 
@@ -29,5 +31,18 @@ public class SecurityCam : MonoBehaviour
 
         meshRenderer.material = mat_On;
         GameManager.Instance.securityCamerasOn = true;
+    }
+
+    public void UpdateCamera()
+    {
+        StartCoroutine(UpdateRenderTextureOneFrame());
+    }
+
+    IEnumerator UpdateRenderTextureOneFrame()
+    {
+        renderCamera.enabled = true;
+        yield return new WaitForSeconds(Time.deltaTime);
+        renderCamera.enabled = false;
+        yield return null;
     }
 }
