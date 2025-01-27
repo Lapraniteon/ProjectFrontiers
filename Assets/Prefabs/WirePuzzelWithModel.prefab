@@ -86,7 +86,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.19021797
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -129,8 +129,8 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureMode: 1
+    textureScale: {x: 1, y: -1}
     shadowBias: 0.5
     generateLightingData: 0
   m_MaskInteraction: 0
@@ -344,7 +344,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.19021797
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -387,8 +387,8 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureMode: 1
+    textureScale: {x: 1, y: -1}
     shadowBias: 0.5
     generateLightingData: 0
   m_MaskInteraction: 0
@@ -530,8 +530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa98d06012b4dfab0d298e9cccf57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tolerance: 1
+  tolerance: 0.5
   port: {fileID: 2647588336580913923}
+  ports: []
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &1584807974726671988
@@ -924,8 +925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa98d06012b4dfab0d298e9cccf57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tolerance: 1
+  tolerance: 0.5
   port: {fileID: 7056914864068587266}
+  ports: []
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &2922229103375929623
@@ -1331,8 +1333,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa98d06012b4dfab0d298e9cccf57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tolerance: 1
+  tolerance: 0.5
   port: {fileID: 6276087021528953084}
+  ports: []
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &4008569475074216278
@@ -1526,7 +1529,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.19021797
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1569,8 +1572,8 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureMode: 1
+    textureScale: {x: 1, y: -1}
     shadowBias: 0.5
     generateLightingData: 0
   m_MaskInteraction: 0
@@ -1679,7 +1682,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.19021797
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1722,8 +1725,8 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureMode: 1
+    textureScale: {x: 1, y: -1}
     shadowBias: 0.5
     generateLightingData: 0
   m_MaskInteraction: 0
@@ -1832,7 +1835,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.19021797
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1875,8 +1878,8 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureMode: 1
+    textureScale: {x: 1, y: -1}
     shadowBias: 0.5
     generateLightingData: 0
   m_MaskInteraction: 0
@@ -2018,8 +2021,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa98d06012b4dfab0d298e9cccf57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tolerance: 1
+  tolerance: 0.5
   port: {fileID: 5029691508400826390}
+  ports: []
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &5002152006650248968
@@ -2528,7 +2532,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.19021797
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2571,8 +2575,8 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
-    textureScale: {x: 1, y: 1}
+    textureMode: 1
+    textureScale: {x: 1, y: -1}
     shadowBias: 0.5
     generateLightingData: 0
   m_MaskInteraction: 0
@@ -3276,8 +3280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa98d06012b4dfab0d298e9cccf57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tolerance: 1
+  tolerance: 0.5
   port: {fileID: 3465449912202658094}
+  ports: []
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &7949099328137932024
@@ -3714,8 +3719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa98d06012b4dfab0d298e9cccf57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tolerance: 1
+  tolerance: 0.5
   port: {fileID: 3176545712537885110}
+  ports: []
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &9108670971388579003
@@ -3767,6 +3773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WirePuzzleModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597749718157235354, guid: aa79561ab15718c489329faa368cdb42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2006340549450383631, guid: aa79561ab15718c489329faa368cdb42,
         type: 3}
