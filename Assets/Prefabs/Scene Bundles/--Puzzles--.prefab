@@ -1330,10 +1330,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1355665734748967393}
     m_Modifications:
+    - target: {fileID: 476577207516095872, guid: ed6e8d105999cc64da6b76d39e9ac39f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564740025452295091, guid: ed6e8d105999cc64da6b76d39e9ac39f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3418374690311947212, guid: ed6e8d105999cc64da6b76d39e9ac39f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4469239723704483627, guid: ed6e8d105999cc64da6b76d39e9ac39f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4507275546089353168, guid: ed6e8d105999cc64da6b76d39e9ac39f,
         type: 3}
       propertyPath: m_Name
       value: All Security Cameras
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732799242560948341, guid: ed6e8d105999cc64da6b76d39e9ac39f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814167419078596235, guid: ed6e8d105999cc64da6b76d39e9ac39f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8563437451374527839, guid: ed6e8d105999cc64da6b76d39e9ac39f,
         type: 3}
