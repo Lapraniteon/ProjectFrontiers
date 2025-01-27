@@ -1914,6 +1914,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7263603376807556383, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263603376807556383, guid: f25cb5997fa65d04482281b58a8dcbc7,
+        type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 145719821}
@@ -1974,6 +1979,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7263603376807556383, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AnimateDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263603376807556383, guid: f25cb5997fa65d04482281b58a8dcbc7,
+        type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SwitchPuzzle, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -2011,6 +2021,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: SwitchPuzzle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263603376807556383, guid: f25cb5997fa65d04482281b58a8dcbc7,
+        type: 3}
+      propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SwitchBoxAnimations, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7263603376807556383, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
@@ -2453,6 +2468,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7616711526142795171, guid: 3e6cac01f7125c74d855bd70f57b4da7,
     type: 3}
   m_PrefabInstance: {fileID: 2579935088278587300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &711596158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4433956379839261264}
   m_PrefabAsset: {fileID: 0}
 --- !u!82 &765431423 stripped
 AudioSource:
@@ -3703,6 +3724,41 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 258
       objectReference: {fileID: 0}
+    - target: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.54167527
+      objectReference: {fileID: 0}
+    - target: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.45451945
+      objectReference: {fileID: 0}
+    - target: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.54167527
+      objectReference: {fileID: 0}
+    - target: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.45451945
+      objectReference: {fileID: 0}
+    - target: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 397447849797040439, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1671060311437054755, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3757,6 +3813,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: --3D Objects--
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016104396506058938, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6692616
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016104396506058938, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.74302685
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016104396506058938, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000000029802312
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016104396506058938, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000029802312
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016104396506058938, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -95.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016104396506058938, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016104396506058938, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6114348063954104406, guid: fc185b8e5e9f5c343983ceb5eeb7d94c,
         type: 3}
@@ -3827,6 +3918,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1fcd4ea4823a9a4b818d6ff81718476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8553027692881639536 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5838220598705052875, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2579935088278587300}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77795872e869bed4e87c126bdfa9fab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
