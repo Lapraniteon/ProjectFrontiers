@@ -2186,11 +2186,6 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 4201554941470776104, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4314624585827080560, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2201,26 +2196,11 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 83007574}
-    - target: {fileID: 4427038263910991318, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4866287744836451856, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4931388431922152636, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 1317489971}
-    - target: {fileID: 5810400367324702755, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5838220598705052875, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: doorPivot
@@ -2291,11 +2271,6 @@ PrefabInstance:
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 2066090658}
-    - target: {fileID: 7510449404860641928, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7742731467257750274, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2326,11 +2301,6 @@ PrefabInstance:
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 717667975}
-    - target: {fileID: 8741229058261618287, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
