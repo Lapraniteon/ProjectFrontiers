@@ -8,6 +8,8 @@ public class SwitchBoxAnimations : MonoBehaviour
 
     public Transform doorPivot;
     public Transform switchPivot;
+
+    public Light[] lights;
     
     public void AnimateDoor(bool goOpen)
     {
@@ -18,5 +20,14 @@ public class SwitchBoxAnimations : MonoBehaviour
     public void AnimateSwitch()
     {
         switchPivot.DOLocalRotate(new Vector3(25f, 0f, 0f), .35f).SetEase(Ease.InQuad);
+    }
+
+    public void TurnOnLights()
+    {
+        foreach (Light light in lights)
+        {
+            light.color = Color.white;
+            light.intensity = 60f;
+        }
     }
 }
