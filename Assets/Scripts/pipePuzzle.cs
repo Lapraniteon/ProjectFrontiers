@@ -69,7 +69,7 @@ public class PipePuzzle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && isFocused)
+        if (Input.GetMouseButtonDown(0) && isFocused && GameManager.Instance.solved_crowbar >= 5)
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, _pipeSegmentLayerMask, QueryTriggerInteraction.Collide))
             {
