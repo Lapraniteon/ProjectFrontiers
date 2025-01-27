@@ -532,7 +532,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 0.5
   port: {fileID: 2647588336580913923}
-  ports: []
+  ports:
+  - {fileID: 3465449912202658094}
+  - {fileID: 7056914864068587266}
+  - {fileID: 2647588336580913923}
+  - {fileID: 3176545712537885110}
+  - {fileID: 5029691508400826390}
+  - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &1584807974726671988
@@ -927,7 +933,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 0.5
   port: {fileID: 7056914864068587266}
-  ports: []
+  ports:
+  - {fileID: 3465449912202658094}
+  - {fileID: 7056914864068587266}
+  - {fileID: 2647588336580913923}
+  - {fileID: 3176545712537885110}
+  - {fileID: 5029691508400826390}
+  - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &2922229103375929623
@@ -1335,7 +1347,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 0.5
   port: {fileID: 6276087021528953084}
-  ports: []
+  ports:
+  - {fileID: 3465449912202658094}
+  - {fileID: 7056914864068587266}
+  - {fileID: 2647588336580913923}
+  - {fileID: 3176545712537885110}
+  - {fileID: 5029691508400826390}
+  - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &4008569475074216278
@@ -2023,7 +2041,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 0.5
   port: {fileID: 5029691508400826390}
-  ports: []
+  ports:
+  - {fileID: 3465449912202658094}
+  - {fileID: 7056914864068587266}
+  - {fileID: 2647588336580913923}
+  - {fileID: 3176545712537885110}
+  - {fileID: 5029691508400826390}
+  - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &5002152006650248968
@@ -3282,7 +3306,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 0.5
   port: {fileID: 3465449912202658094}
-  ports: []
+  ports:
+  - {fileID: 3465449912202658094}
+  - {fileID: 7056914864068587266}
+  - {fileID: 2647588336580913923}
+  - {fileID: 3176545712537885110}
+  - {fileID: 5029691508400826390}
+  - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &7949099328137932024
@@ -3721,7 +3751,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tolerance: 0.5
   port: {fileID: 3176545712537885110}
-  ports: []
+  ports:
+  - {fileID: 3465449912202658094}
+  - {fileID: 7056914864068587266}
+  - {fileID: 2647588336580913923}
+  - {fileID: 3176545712537885110}
+  - {fileID: 5029691508400826390}
+  - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
 --- !u!1 &9108670971388579003
