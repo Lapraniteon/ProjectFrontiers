@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3804073045478310470}
   m_Layer: 0
-  m_Name: All Movement Targets
+  m_Name: --All Movement Targets--
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
