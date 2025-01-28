@@ -1329,7 +1329,7 @@ PrefabInstance:
     - target: {fileID: 234064688926247999, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.06521797
+      value: 0.33696175
       objectReference: {fileID: 0}
     - target: {fileID: 388262401358668027, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
@@ -1404,7 +1404,7 @@ PrefabInstance:
     - target: {fileID: 794897517223726817, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.06521797
+      value: 0.33696175
       objectReference: {fileID: 0}
     - target: {fileID: 912813483462607324, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
@@ -1414,7 +1414,7 @@ PrefabInstance:
     - target: {fileID: 912813483462607324, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.06521797
+      value: 0.33696175
       objectReference: {fileID: 0}
     - target: {fileID: 1220325010856191040, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
@@ -1424,7 +1424,7 @@ PrefabInstance:
     - target: {fileID: 1220325010856191040, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.06521797
+      value: 0.33696175
       objectReference: {fileID: 0}
     - target: {fileID: 1584807974726671988, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
@@ -1439,7 +1439,7 @@ PrefabInstance:
     - target: {fileID: 3099995136818057195, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.06521797
+      value: 0.33696175
       objectReference: {fileID: 0}
     - target: {fileID: 3711539276859550866, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
@@ -1449,7 +1449,7 @@ PrefabInstance:
     - target: {fileID: 3711539276859550866, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.06521797
+      value: 0.33696175
       objectReference: {fileID: 0}
     - target: {fileID: 4032209727530129494, guid: a78e3832d66a04510a9ec5dbee004f42,
         type: 3}
