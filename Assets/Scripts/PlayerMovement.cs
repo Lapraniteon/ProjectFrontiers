@@ -27,27 +27,29 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, ~0, QueryTriggerInteraction.Collide))
             {
-                if (hit.collider.gameObject.layer != LayerMask.NameToLayer(movementTargetLayer))
+                if (hit.collider.gameObject.layer != LayerMask.NameToLayer(movementTargetLayer)) // Exit if the collider is not a movement target
                     return;
                 
-                if (currentFocusedTarget != null)
+                if (currentFocusedTarget != null) // Check if a previous target exists
                     currentFocusedTarget.m_OnUnfocus.Invoke();
                 
-                MovementTarget thisHit = hit.transform.GetComponent<MovementTarget>();
+                MovementTarget thisHit = hit.transform.GetComponent<MovementTarget>(); // Get the current hit
 
-                if (previousFocusedTarget != thisHit)
+                if (previousFocusedTarget != thisHit) // Hit a new target
                 {
-                    previousFocusedTarget = currentFocusedTarget;
+                    previousFocusedTarget = currentFocusedTarget; // Then the current target will be set as the previous target
                     
-                    if (currentFocusedTarget != null)
-                        currentFocusedTarget.movementTargetCollider.enabled = true;
+                    
                 }
                 
-                currentFocusedTarget = thisHit;
-                if (currentFocusedTarget != null)
+                if (currentFocusedTarget != null) // Current target exists
+                    currentFocusedTarget.movementTargetCollider.enabled = true; // Then (re)-enable the current target
+                
+                currentFocusedTarget = thisHit; // Current focused target is our new hit
+                if (currentFocusedTarget != null) // Current focused target exists
                 {
-                    currentFocusedTarget.movementTargetCollider.enabled = false;
-                    Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation);
+                    currentFocusedTarget.movementTargetCollider.enabled = false; // Disable current movement target
+                    Move(currentFocusedTarget.movementTargetData, currentFocusedTarget.m_OnFocus, currentFocusedTarget.applyCameraRotation); // Move
                 }
             }
         }
