@@ -968,8 +968,8 @@ PrefabInstance:
     - target: {fileID: 9027982465073444232, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
-      value: 'Of course, the cooler is broken. It needs electricity and water. I
-        will try to fix it. '
+      value: 'Of course, the cooler is broken. It needs electricity, water and a
+        password. I will try to fix it. '
       objectReference: {fileID: 0}
     - target: {fileID: 9027982465073444232, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
