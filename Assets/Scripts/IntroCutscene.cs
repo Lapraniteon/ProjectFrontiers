@@ -11,10 +11,7 @@ public class IntroCutscene : MonoBehaviour
     public Image overlay;
     public Image[] panels;
     
-    void Start()
-    {
-        StartCoroutine(Cutscene());
-    }
+    void Start() => StartCoroutine(Cutscene());
 
     IEnumerator Cutscene()
     {
@@ -22,7 +19,7 @@ public class IntroCutscene : MonoBehaviour
         {
             Tween fadeIn = overlay.DOFade(0f, 0.5f);
             yield return fadeIn.WaitForCompletion();
-            yield return new WaitForSeconds(4f);
+            yield return new WaitForSeconds(6f);
             Tween fadeOut = overlay.DOFade(1f, 0.5f);
             yield return fadeOut.WaitForCompletion();
             panels[i].gameObject.SetActive(false);
