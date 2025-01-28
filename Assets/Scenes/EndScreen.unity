@@ -324,7 +324,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 100246774}
         m_TargetAssemblyTypeName: EndScreen, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: PrevSceneButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1075,7 +1075,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 100246774}
         m_TargetAssemblyTypeName: EndScreen, Assembly-CSharp
-        m_MethodName: Quit
+        m_MethodName: QuitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
