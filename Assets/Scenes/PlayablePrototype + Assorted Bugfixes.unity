@@ -1288,6 +1288,46 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 83007574}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8681148
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.38513985
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.288479
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.12175302
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 47.641
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -37.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455544565738034697, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.92
+      objectReference: {fileID: 0}
     - target: {fileID: 5838220598705052875, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: doorPivot
