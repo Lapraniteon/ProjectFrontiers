@@ -22,6 +22,7 @@ public class EndScreen : MonoBehaviour
 
     public void QuitButton()
     {
+        Debug.Log("Quit");
         Application.Quit();
     }
 }
