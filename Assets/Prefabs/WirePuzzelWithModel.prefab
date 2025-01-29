@@ -516,7 +516,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.6262026, y: 7.897854, z: 2.6262026}
+  m_Size: {x: 2.6262026, y: 11.49, z: 6.14}
   m_Center: {x: -0.0000013113022, y: -0.0000038146977, z: -0.0000038146973}
 --- !u!114 &6831918530215778093
 MonoBehaviour:
@@ -541,6 +541,9 @@ MonoBehaviour:
   - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
+  m_OnWiresConnect:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1584807974726671988
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,7 +920,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.6262026, y: 7.897854, z: 2.6262026}
+  m_Size: {x: 2.6262026, y: 11.49, z: 6.14}
   m_Center: {x: -0.0000013113022, y: -0.0000028610234, z: -0.0000038146973}
 --- !u!114 &6805019558034639498
 MonoBehaviour:
@@ -942,6 +945,9 @@ MonoBehaviour:
   - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
+  m_OnWiresConnect:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2922229103375929623
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,7 +1337,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.6262026, y: 7.897854, z: 2.6262026}
+  m_Size: {x: 2.6262026, y: 11.49, z: 6.14}
   m_Center: {x: -0.0000013113022, y: -0.0000038146977, z: 0.0000023841858}
 --- !u!114 &2305677609668472211
 MonoBehaviour:
@@ -1356,6 +1362,9 @@ MonoBehaviour:
   - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
+  m_OnWiresConnect:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4008569475074216278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2034,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.6262026, y: 7.897854, z: 2.6262026}
+  m_Size: {x: 2.6262026, y: 11.49, z: 6.14}
   m_Center: {x: -0.0000013113022, y: -0.0000028610234, z: -0.0000038146973}
 --- !u!114 &2097677921741288411
 MonoBehaviour:
@@ -2050,6 +2059,9 @@ MonoBehaviour:
   - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
+  m_OnWiresConnect:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5002152006650248968
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,7 +3302,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.6262026, y: 7.897854, z: 2.6262026}
+  m_Size: {x: 2.6262026, y: 11.49, z: 6.14}
   m_Center: {x: -0.0000013113022, y: -0.0000038146977, z: 2.7105058e-20}
 --- !u!114 &8540388995336863067
 MonoBehaviour:
@@ -3315,6 +3327,9 @@ MonoBehaviour:
   - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
+  m_OnWiresConnect:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7949099328137932024
 GameObject:
   m_ObjectHideFlags: 0
@@ -3735,7 +3750,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.6262026, y: 7.897854, z: 2.6262026}
+  m_Size: {x: 2.6262026, y: 11.49, z: 6.14}
   m_Center: {x: -0.0000013113022, y: -0.0000038146977, z: 0.00000047683716}
 --- !u!114 &6175974313835003802
 MonoBehaviour:
@@ -3760,6 +3775,9 @@ MonoBehaviour:
   - {fileID: 6276087021528953084}
   puzzel: {fileID: 4032209727530129494}
   wiresConnected: 0
+  m_OnWiresConnect:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &9108670971388579003
 GameObject:
   m_ObjectHideFlags: 0
