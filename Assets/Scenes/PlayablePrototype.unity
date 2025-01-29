@@ -251,6 +251,11 @@ PrefabInstance:
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 5793341096770201601}
+    - target: {fileID: 632158210498812230, guid: f25cb5997fa65d04482281b58a8dcbc7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.131
+      objectReference: {fileID: 0}
     - target: {fileID: 1223703664282641310, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -301,6 +306,11 @@ PrefabInstance:
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 145719821}
+    - target: {fileID: 2589614542314207356, guid: f25cb5997fa65d04482281b58a8dcbc7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.337
+      objectReference: {fileID: 0}
     - target: {fileID: 2599343578446637105, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1155,6 +1165,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: --Factory Model--
       objectReference: {fileID: 0}
+    - target: {fileID: 8514164044124867805, guid: 0b5a33ea04a90df46b2021192b163971,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -767
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514164044124867805, guid: 0b5a33ea04a90df46b2021192b163971,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 73
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1290,6 +1310,16 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1531447133}
+    - target: {fileID: 2837426536380692652, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837426536380692652, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 3033362075685292349, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1360,6 +1390,17 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 83007574}
+    - target: {fileID: 5274626014562159905, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8636691453643544572, guid: b89a213dffd13164c9fcf80f926cbfe8,
+        type: 2}
+    - target: {fileID: 5274626014562159905, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5575260035773940053, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_Camera
@@ -1395,11 +1436,26 @@ PrefabInstance:
       propertyPath: m_OnWiresConnect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 32389608}
+    - target: {fileID: 6629332500377703821, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6810302223865615831, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnWiresConnect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 32389608}
+    - target: {fileID: 6810733259287146035, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810733259287146035, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6930157597460461600, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1440,6 +1496,11 @@ PrefabInstance:
       propertyPath: m_OnWiresConnect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 32389608}
+    - target: {fileID: 9062630788744037673, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9.65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
