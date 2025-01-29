@@ -2572,6 +2572,17 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1856860661}
+    - target: {fileID: 3519345252135623614, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: b89a213dffd13164c9fcf80f926cbfe8,
+        type: 2}
+    - target: {fileID: 3519345252135623614, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3632722311239820077, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2686,6 +2697,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274626014562159905, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: b89a213dffd13164c9fcf80f926cbfe8,
+        type: 2}
+    - target: {fileID: 5274626014562159905, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5575260035773940053, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
@@ -3128,6 +3150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: --Dialogue UI--
+      objectReference: {fileID: 0}
+    - target: {fileID: 6878680911194463723, guid: acfe1da54b217e141868ab5c86e1a273,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 4023
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
