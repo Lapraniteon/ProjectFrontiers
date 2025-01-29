@@ -271,6 +271,7 @@ MonoBehaviour:
   solved_crowbar: 0
   hasCrowbar: 0
   securityCamerasOn: 0
+  dialogueUI: {fileID: 0}
   m_OnPuzzleCompletion:
     m_PersistentCalls:
       m_Calls: []
@@ -306,7 +307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1923720345
 Light:
   m_ObjectHideFlags: 0
