@@ -23,6 +23,9 @@ public class NewKeypadButton : MonoBehaviour
             return;
 
         _mousePosition = Input.mousePosition - GetMousePos();
+
+        puzzle.m_OnButtonPressed.Invoke();
+        
         if (gameObject.name == "Restart Button")
         {
             displayedCode.text = "";

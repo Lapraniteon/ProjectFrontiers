@@ -50,6 +50,7 @@ public class PipePuzzle : MonoBehaviour
 
     public bool isFocused = false;
 
+    public UnityEvent m_OnRotateSegment;
     public UnityEvent m_OnSolved;
 
     void Start()
@@ -75,7 +76,11 @@ public class PipePuzzle : MonoBehaviour
             {
                 PipePuzzleSegment segment = hit.transform.GetComponent<PipePuzzleSegment>();
                 if (!segment.IsRotating && segment.segmentType != SegmentTypes.Cross)
+                {
                     segment.Rotate();
+                    m_OnRotateSegment.Invoke();
+                }
+                    
             }
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), Mathf.Infinity, _pipeButtonLayerMask, QueryTriggerInteraction.Collide))
             {

@@ -14,6 +14,8 @@ public class NewKeypadPuzzle : MonoBehaviour
 
     public GameObject noPower;
 
+    public UnityEvent m_OnButtonPressed;
+
     public void Update()
     {
         if (GameManager.Instance.solved_wirePuzzle >= 1 && !hasPower)

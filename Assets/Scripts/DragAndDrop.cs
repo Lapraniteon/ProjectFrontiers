@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DragAndDrop : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class DragAndDrop : MonoBehaviour
     public IsWirePuzzelSolved puzzel;
 
     public bool wiresConnected;
+
+    public UnityEvent m_OnWiresConnect;
 
     void Start()
     {
@@ -54,6 +57,7 @@ public class DragAndDrop : MonoBehaviour
         if (Vector3.Distance(transform.position, port.position) <= tolerance)
         {
             wiresConnected = true;
+            m_OnWiresConnect.Invoke();
             puzzel.CheckSolution();
         }
     }
