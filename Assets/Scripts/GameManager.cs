@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
 
     public bool securityCamerasOn;
 
+    public GameObject dialogueUI;
+
     [Space]
     [Header("Events")]
     public UnityEvent m_OnPuzzleCompletion;
