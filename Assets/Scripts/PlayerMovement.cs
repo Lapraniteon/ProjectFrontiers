@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !GameManager.Instance.cameraIsLocked)
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, Mathf.Infinity, ~0, QueryTriggerInteraction.Collide))
             {
@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(1))
         {
-            if (previousFocusedTarget == null)
+            if (previousFocusedTarget == null || previousFocusedTarget == currentFocusedTarget)
                 return;
             
             currentFocusedTarget.movementTargetCollider.enabled = true;
