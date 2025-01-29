@@ -186,6 +186,7 @@ MonoBehaviour:
   solved_crowbar: 0
   hasCrowbar: 0
   securityCamerasOn: 0
+  dialogueUI: {fileID: 0}
   m_OnPuzzleCompletion:
     m_PersistentCalls:
       m_Calls: []
@@ -507,6 +508,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d9511cdcc8536447a37136431ff3a2f, type: 3}
+--- !u!20 &1471529789 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2619215735621453787, guid: 0d9511cdcc8536447a37136431ff3a2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1471529788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1489132266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -951,11 +958,6 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 63579833}
-    - target: {fileID: 4267418437428810693, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 4314624585827080560, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -966,21 +968,11 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 192329410}
-    - target: {fileID: 5022674732765363197, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+    - target: {fileID: 4654546941894285863, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954846068947449113, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.399
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954846068947449113, guid: 3e6cac01f7125c74d855bd70f57b4da7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.203
-      objectReference: {fileID: 0}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1471529789}
     - target: {fileID: 7742731467257750274, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
