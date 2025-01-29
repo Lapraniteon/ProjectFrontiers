@@ -1300,6 +1300,16 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1531447133}
+    - target: {fileID: 2837426536380692652, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837426536380692652, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 3033362075685292349, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1370,6 +1380,17 @@ PrefabInstance:
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 83007574}
+    - target: {fileID: 5274626014562159905, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8636691453643544572, guid: b89a213dffd13164c9fcf80f926cbfe8,
+        type: 2}
+    - target: {fileID: 5274626014562159905, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5575260035773940053, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_Camera
@@ -1405,11 +1426,26 @@ PrefabInstance:
       propertyPath: m_OnWiresConnect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 32389608}
+    - target: {fileID: 6629332500377703821, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6810302223865615831, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnWiresConnect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 32389608}
+    - target: {fileID: 6810733259287146035, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810733259287146035, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6930157597460461600, guid: 3e6cac01f7125c74d855bd70f57b4da7,
         type: 3}
       propertyPath: m_OnSolved.m_PersistentCalls.m_Calls.Array.data[0].m_Target
