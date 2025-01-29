@@ -251,6 +251,11 @@ PrefabInstance:
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 5793341096770201601}
+    - target: {fileID: 632158210498812230, guid: f25cb5997fa65d04482281b58a8dcbc7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.131
+      objectReference: {fileID: 0}
     - target: {fileID: 1223703664282641310, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -301,6 +306,11 @@ PrefabInstance:
       propertyPath: m_OnUnfocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 145719821}
+    - target: {fileID: 2589614542314207356, guid: f25cb5997fa65d04482281b58a8dcbc7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.337
+      objectReference: {fileID: 0}
     - target: {fileID: 2599343578446637105, guid: f25cb5997fa65d04482281b58a8dcbc7,
         type: 3}
       propertyPath: m_OnFocus.m_PersistentCalls.m_Calls.Array.data[0].m_Target
