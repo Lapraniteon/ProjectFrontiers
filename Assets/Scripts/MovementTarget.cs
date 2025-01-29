@@ -15,6 +15,8 @@ public class MovementTarget : MonoBehaviour
     public bool lockCameraWhileFocused;
     [Tooltip("Also rotate the camera according to the movement target data.")]
     public bool applyCameraRotation;
+
+    public bool playedDialogue;
     
     [Space]
     [Tooltip("Methods to run when this object becomes focused.")]
