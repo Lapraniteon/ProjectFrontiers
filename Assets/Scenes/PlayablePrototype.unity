@@ -1165,6 +1165,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: --Factory Model--
       objectReference: {fileID: 0}
+    - target: {fileID: 8514164044124867805, guid: 0b5a33ea04a90df46b2021192b163971,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -767
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514164044124867805, guid: 0b5a33ea04a90df46b2021192b163971,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 73
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1486,6 +1496,11 @@ PrefabInstance:
       propertyPath: m_OnWiresConnect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 32389608}
+    - target: {fileID: 9062630788744037673, guid: 3e6cac01f7125c74d855bd70f57b4da7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9.65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
