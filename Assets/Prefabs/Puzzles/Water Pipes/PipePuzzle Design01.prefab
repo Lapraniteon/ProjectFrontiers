@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: 7401231860110333074, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}
       propertyPath: segmentType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7581657815579276832, guid: 749defd58610eaf448165ddb1b3a37b4,
         type: 3}

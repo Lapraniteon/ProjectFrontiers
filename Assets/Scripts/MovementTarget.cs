@@ -29,4 +29,13 @@ public class MovementTarget : MonoBehaviour
         Gizmos.color = Color.white;
         Gizmos.DrawSphere(transform.position, .5f);
     }
+
+    public void PlayDialogue()
+    {
+        if (playedDialogue)
+            return;
+        
+        GameManager.Instance.dialogueUI.gameObject.SetActive(true);
+        playedDialogue = true;
+    }
 }
